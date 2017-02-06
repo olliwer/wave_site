@@ -1,0 +1,313 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  text-align: center;
+  display: inline-block;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  text-align: left;
+  margin-top: 30vh;
+  height: 500px;
+  width: 80vh;
+}
+
+.header img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  vertical-align:middle;
+}
+
+.inner {
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+  height: 250vh;
+}
+
+.container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+  background-color: white;
+  height: 50vh;
+}
+
+.team {
+  background-color: white;
+  height: 50vh;
+}
+
+.philosophy {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 60vh;
+  opacity: 1.0;
+}
+
+.philosophy h1 {
+  border-bottom: 4px solid #F64747;
+  padding: 0 30px 0 0;
+}
+
+.arrow-icon-wrapper {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 10%;
+}
+
+#navbar {
+  text-align: right;
+  right: 50px;
+  top: 70px;
+  left: 20px;
+  position: fixed;
+}
+
+#navbar img {
+  position: absolute;
+  left: 50px;
+  width: 150px;
+}
+
+#navbar li { 
+    list-style: none;
+}
+
+#navbar a {
+    font-size: 14px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    color: #F64747;
+}
+
+#navbar a:hover {
+    border-bottom: 2px solid #F64747; 
+    background-color: transparent;
+    color: black;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	  text-align: left;
+    font-size: 60px;
+    font-family: 'Merriweather', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+h1 span {
+  color: #F64747;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 60px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+    color: #1cbbb4;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Merriweather', sans-serif;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Merriweather', sans-serif;
+    color: #1cbbb4;
+}
+
+p {
+	margin: auto;
+	color: black;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: bold;
+
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+	text-align: center;
+  padding-bottom: 30px;
+  bottom: 10px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+footer img {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-device-width: 499px) {
+  .header {
+    margin-top: 10vh;
+  }
+
+  .header img {
+    width: 500px;
+    height: 500px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 100px;
+  }
+
+  footer {
+    margin-bottom: 60px;
+  }
+
+  footer img {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-device-width: 1024px) and (orientation: landscape) {
+  .header {
+    margin-top: 10vh;
+  }
+
+  .header img {
+    width: 300px;
+    height: 300px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+
+  footer {
+    margin-bottom: 20px;
+  }
+
+  footer img {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.portfolio {
+  width: 50%;
+  margin: 30px auto;
+  font-family: sans-serif;
+
+}
+
+.portfolio h3 {
+  text-align: center;
+  font-size: 1.65em;
+  margin: 0 0 30px;
+}
+
+div {
+  font-size: 0;
+}
+
+.portfolio h1 {
+  border-bottom: 4px solid #F64747;
+  padding: 0 30px 0 0;
+}
+
+.portfolio a {
+  font-size: 16px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(25% - 20px);
+  margin-left: 8px;
+}
+
+.portfolio a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+  
+  a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  
+  a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+a:hover img {
+  transform: scale(1.15);
+}
+
+figure {
+  margin: 0;
+}
+
+.portfolio img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
+.portfolio .p a {
+  display: inline;
+  font-size: 13px;
+  margin: 0;
+}
+
+.portfolio .p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 100px;
+}
+
+}
