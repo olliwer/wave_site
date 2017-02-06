@@ -21,6 +21,22 @@ body {
   vertical-align: middle;
 }
 
+.container {
+  height: 80vh;
+}
+
+.intro {
+  background-color: white;
+  height: 50vh;
+}
+
+.arrow-icon-wrapper {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 10%;
+}
+
 h1 {
     display: inline-block;
     margin-left: auto;
@@ -30,6 +46,21 @@ h1 {
     font-family: 'Gotham', sans-serif;
     color: white;
     font-weight: bold;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 60px;
+    font-family: 'Gotham', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Gotham', sans-serif;
+    color: black;
 }
 
 p {
@@ -43,7 +74,6 @@ p {
 footer {
   width: 100%;
 	text-align: center;
-	position: absolute;
   padding-bottom: 30px;
   bottom: 10px;
   height: 20px;
