@@ -34,7 +34,7 @@ body {
 
 .container {
   position: relative;
-  height: 250vh;
+  height: 230vh;
 }
 
 .container img {
@@ -56,7 +56,7 @@ body {
 }
 
 .philosophy {
-  width: 600px;
+  width: 50%;
   margin: 0 auto;
   text-align: left;
   margin-top: 60vh;
@@ -89,12 +89,12 @@ body {
   width: 150px;
 }
 
-#navbar li { 
+#navbar li {
     list-style: none;
 }
 
 #navbar a {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Merriweather', sans-serif;
     font-weight: bold;
     color: black;
@@ -133,8 +133,9 @@ h2 {
 
 h3 {
     display: inline-block;
-    font-size: 20px;
-    font-family: 'Merriweather', sans-serif;
+    font-size: 30px;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 100;
     color: black;
 }
 
@@ -233,7 +234,7 @@ footer img {
 
 
 .portfolio {
-  width: 50%;
+  width: 70%;
   margin: 30px auto;
   font-family: sans-serif;
 
@@ -281,7 +282,7 @@ div {
   }
 }
 
-a:hover img {
+.portfolio a:hover img {
   transform: scale(1.15);
 }
 
