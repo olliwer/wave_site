@@ -291,10 +291,6 @@ div {
   transform: scale(1.15);
 }
 
-figure {
-  margin: 0;
-}
-
 .portfolio img {
   border: none;
   max-width: 100%;
@@ -325,6 +321,7 @@ figure {
 .team a {
   font-size: 16px;
   overflow: hidden;
+  position: relative;
   display: inline-block;
   margin-bottom: 8px;
   width: calc(33% - 20px);
@@ -344,6 +341,11 @@ figure {
   transition: transform .2s ease-in-out;
 }
 
+.container {
+  position: relative;
+  display: inline-block;
+}
+
 .team h1 {
   font-size: 26px;
 }
@@ -352,19 +354,23 @@ figure {
   padding-top: 50vh;
 }
 
-.team .text {
-position:relative;
-bottom:30px;
-left:0px;
-visibility:hidden;
+.overlay {
+    background:rgba(0,0,0,0.5);
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    font-size: 16px;
+    font-family: 'Merriweather', sans-serif;
 }
 
-.team a:hover .text {
-visibility:visible;
-}
-
-.team p {
-  color: white;
+.team a:hover > .overlay {
+    opacity: 1;
 }
 
 
