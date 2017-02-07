@@ -34,7 +34,11 @@ body {
 
 .container {
   position: relative;
-  height: 230vh;
+  height: 220vh;
+}
+
+.main {
+  color: white;
 }
 
 .container img {
@@ -59,7 +63,7 @@ body {
   width: 60%;
   margin: 0 auto;
   text-align: left;
-  margin-top: 60vh;
+  margin-top: 50vh;
   opacity: 1.0;
 }
 
@@ -254,6 +258,9 @@ div {
 }
 
 .portfolio a {
+  color: inherit;
+  border-color: #34495E;
+  border: 1px solid;
   font-size: 16px;
   overflow: hidden;
   display: inline-block;
@@ -343,6 +350,25 @@ figure {
 
 .contact {
   padding-top: 50vh;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 0, 0, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  /*remove comment if you want a gradual transition between states
+      -webkit-transition: visibility opacity 0.2s;
+      */
+}
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
 }
 
 }
