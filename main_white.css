@@ -55,17 +55,16 @@ body {
   height: 50vh;
 }
 
-.philosophy {
-  width: 50%;
+.about {
+  width: 60%;
   margin: 0 auto;
   text-align: left;
   margin-top: 60vh;
   opacity: 1.0;
 }
 
-.philosophy h1 {
-  border-bottom: 4px solid #F64747;
-  padding: 0 30px 0 0;
+.about h1 {
+  font-size: 26px;
 }
 
 .arrow-icon-wrapper {
@@ -234,7 +233,7 @@ footer img {
 
 
 .portfolio {
-  width: 70%;
+  width: 60%;
   margin: 30px auto;
   font-family: sans-serif;
 
@@ -251,8 +250,7 @@ div {
 }
 
 .portfolio h1 {
-  border-bottom: 4px solid #F64747;
-  padding: 0 30px 0 0;
+  font-size: 26px;
 }
 
 .portfolio a {
@@ -309,6 +307,42 @@ figure {
   text-align: center;
   font-size: 13px;
   padding-top: 100px;
+}
+
+.team {
+  padding-top: 30vh;
+  width: 60%;
+  margin: 30px auto;
+}
+
+.team a {
+  font-size: 16px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(33% - 20px);
+  margin-left: 8px;
+}
+
+.team a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.team img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
+.team h1 {
+  font-size: 26px;
+}
+
+.contact {
+  padding-top: 50vh;
 }
 
 }
