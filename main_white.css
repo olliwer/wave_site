@@ -306,19 +306,31 @@ div {
       height: 150px;
       width: calc(50% - 20px);
   }
+
+  .team {
+    width: 90%;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 980px) {
-    .portfolio a {
+  .portfolio a {
       height: 180px;
       width: calc(33% - 20px);
+  }
+
+  .team {
+    width: 90%;
   }
 }
 
 @media (min-width: 981px) and (max-width: 1450px) {
-    .portfolio a {
+  .portfolio a {
       height: 200px;
       width: calc(25% - 20px);
+  }
+
+  .team {
+    width: 90%;
   }
 }
 
