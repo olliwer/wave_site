@@ -319,6 +319,10 @@ div {
   }
 }
 
+.portfolio a .white {
+  display: none;
+}
+
 .portfolio a, p {
   padding-top: 15px;
     font-size: 13px;
@@ -329,6 +333,14 @@ div {
 
 .portfolio a:hover {
   background-color: #3d4e4d;
+}
+
+.portfolio a:hover .black {
+  display: none;
+}
+
+.portfolio a:hover .white {
+  display: inline;
 }
 
 .portfolio a:hover p {
