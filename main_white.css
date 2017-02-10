@@ -228,6 +228,22 @@ footer img {
     width: 80px;
     height: 80px;
   }
+
+  .container {
+    height: 100vh;
+  }
+
+  .container img {
+    height: 100%;
+  }
+
+  .about {
+    margin-top: 5vh;
+  }
+
+  #navbar img {
+    width: 50px;
+  }
 }
 
 @media screen and (max-device-width: 1024px) and (orientation: landscape) {
