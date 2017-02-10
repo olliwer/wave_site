@@ -417,12 +417,16 @@ div {
   display: inline;
 }
 
-.team a .color {
+.team a .black {
   display: none;
 }
 
-.team a:hover .color {
+.team a .color {
   display: block;
+}
+
+.team a:hover .color {
+  display: none;
 }
 
 .team a:hover > .overlay {
@@ -431,7 +435,12 @@ div {
 
 
 .team a:hover .black {
-  display: none;
+  display: block;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
 }
 
 .portfolio a:hover p {
@@ -457,9 +466,9 @@ div {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   width: calc(33% - 20px);
-  margin-left: 8px;
+  margin-left: 12px;
 }
 
 .team a:nth-of-type(2n) {
