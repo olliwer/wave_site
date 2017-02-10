@@ -301,6 +301,27 @@ div {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .portfolio a {
+      height: 150px;
+      width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 980px) {
+    .portfolio a {
+      height: 180px;
+      width: calc(33% - 20px);
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1450px) {
+    .portfolio a {
+      height: 200px;
+      width: calc(25% - 20px);
+  }
+}
+
 .portfolio a:nth-of-type(2n) {
   margin-right: 0;
 }
