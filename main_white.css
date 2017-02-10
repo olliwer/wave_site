@@ -326,8 +326,12 @@ div {
       width: calc(50% - 20px);
   }
 
-  .team {
+  #team {
     width: 90%;
+  }
+
+  #team a {
+    width: calc(50% - 10px);
   }
 }
 
@@ -337,8 +341,12 @@ div {
       width: calc(33% - 20px);
   }
 
-  .team {
+  #team {
     width: 90%;
+  }
+
+  #team a {
+    width: calc(50% - 10px);
   }
 }
 
@@ -348,8 +356,22 @@ div {
       width: calc(25% - 20px);
   }
 
-  .team {
+  #team {
     width: 90%;
+  }
+
+  #team a {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (min-width: 1451 px) {
+  .team {
+    width: 60%;
+  }
+
+  #team a {
+    width: calc(50% - 10px);
   }
 }
 
@@ -408,8 +430,8 @@ div {
 }
 
 .team {
-  padding-top: 30vh;
   width: 60%;
+  padding-top: 30vh;
   margin: 30px auto;
 }
 
