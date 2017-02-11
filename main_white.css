@@ -336,7 +336,7 @@ div {
     width: 90%;
   }
 
-  #team a {
+  #team .img_container {
     width: calc(50% - 20px);
   }
 }
@@ -351,7 +351,7 @@ div {
     width: 90%;
   }
 
-  #team a {
+  #team .img_container {
     width: calc(50% - 20px);
   }
 }
@@ -366,7 +366,7 @@ div {
     width: 90%;
   }
 
-  #team a {
+  #team .img_container {
     width: calc(50% - 20px);
   }
 }
@@ -376,7 +376,7 @@ div {
     width: 60%;
   }
 
-  #team a {
+  #team .img_container {
     width: calc(50% - 20px);
   }
 }
@@ -423,30 +423,29 @@ div {
   display: inline;
 }
 
-.team a .black {
+.team .img_container .black {
   display: none;
 }
 
-.team a .color {
+.team .img_container .color {
   display: block;
 }
 
-.team a:hover .color {
+.team .img_container:hover .color {
   display: none;
 }
 
-.team a:hover > .overlay {
+.team .img_container:hover > .overlay {
     opacity: 1;
 }
 
-
-.team a:hover .black {
+.team .img_container:hover .black {
   display: block;
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1.5px);
+  filter: blur(1.5px);
 }
 
 .portfolio a:hover p {
@@ -468,7 +467,17 @@ div {
   margin: 30px auto;
 }
 
-.team a {
+.team .link {
+  color: white;
+}
+
+.team .link img {
+  background: none;
+  width: 40px;
+  height: auto;
+}
+
+.team .img_container {
   font-size: 16px;
   overflow: hidden;
   position: relative;
@@ -478,7 +487,7 @@ div {
   margin-left: 12px;
 }
 
-.team a:nth-of-type(2n) {
+.team .img_container:nth-of-type(2n) {
   margin-right: 0;
 }
 
