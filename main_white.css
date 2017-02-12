@@ -282,14 +282,17 @@ footer img {
 
 
 .separator {
-  margin-top: 20vh;
-  height: 30vh;
-  background-color: #3d4e4d;
+  padding-bottom: 20vh;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  border-bottom: 2px solid #e7e9ee;
 }
 
 
 
 .portfolio {
+  padding-top: 20vh;
   width: 75%;
   margin: 30px auto;
   font-family: sans-serif;
