@@ -240,7 +240,8 @@ footer img {
   }
 
   .container img {
-    height: 100%;
+    width: 120%;
+    padding-top: 30vh;
   }
 
   .about {
