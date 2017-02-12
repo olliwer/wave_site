@@ -34,7 +34,7 @@ body {
 
 .container {
   position: relative;
-  height: 220vh;
+  height: auto;
 }
 
 .main {
@@ -63,7 +63,7 @@ body {
   width: 60%;
   margin: 0 auto;
   text-align: left;
-  margin-top: 50vh;
+  margin-top: 30vh;
   opacity: 1.0;
 }
 
@@ -281,11 +281,8 @@ footer img {
 }
 
 
-
-
-
-
 .separator {
+  margin-top: 20vh;
   height: 30vh;
   background-color: #3d4e4d;
 }
@@ -446,6 +443,10 @@ div {
   -o-filter: blur(1px);
   -ms-filter: blur(1.5px);
   filter: blur(1.5px);
+}
+
+.logo {
+  display: none;
 }
 
 .portfolio a:hover p {

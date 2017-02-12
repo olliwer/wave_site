@@ -36,10 +36,23 @@ $(document).ready(function () {
      });
  });
 
+$(document).ready(function () {
+
+});
+
 $(window).scroll(function() {
   $(".bg-img").css({
-    'opacity': 1 - (($(this).scrollTop()-500) / 600)
+    'opacity': 1 - (($(this).scrollTop()-100) / 600)
   });
+
+  if($(this).scrollTop() > 500){
+    $(".logo").fadeIn("slow");
+  }
+
+  if($(this).scrollTop() < 500){
+    $(".logo").fadeOut("slow");
+  }
+
 });
 
 $(function() { // DOM ready
@@ -83,10 +96,10 @@ function resp() {
 
 <!-- Fellow developers, considering building your own company? Contact us for any information regarding how to fund your future venture. -->
 <div class="container" id="home">
-	<img class="bg-img" src="tausta4.jpg">
+	<img class="bg-img" src="lander_3.png">
 	</img>
 	<div id="navbar">
-			<a href="#home"><img src="waveventures_cinnabar_rightalign.png"></img></a>
+			<a href="#home" class="logo"><img src="waveventures_cinnabar_rightalign.png"></img></a>
 			<ul class="topnav" id="nav">
         		<li><a href="#home">home</a></li>
 				<li><a href="#about">about</a></li>
@@ -101,7 +114,10 @@ function resp() {
 
 	<div class="header">
 		<!--<img class="animated fadeIn inner" src="wave_teal.png" alt="Wave">-->
+		<!--
 		<h1 class="main animated fadeIn inner">EMPOWERING THE <br> <span data-words="guitarcroco.|community.|founders.|valueforlife."></span></span></h1>
+		-->
+		<h1 class="main"> </h1>
 		<!--<h4 class="inner">PRE-SEED FROM HEL WITH &lt;3</h4>-->
 		<!--<div class="animated arrow-icon-wrapper wow fadeIn">
 			<h3 style="padding-left: 350px; margin-bottom: 0">Dive in.</h3><br>
