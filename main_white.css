@@ -43,11 +43,11 @@ body, html {
   color: white;
 }
 
-.container img {
+.container .bg-img {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 85%;
     height: auto;
 }
 
@@ -120,7 +120,7 @@ ul.topnav li.icon {
 }
 
 @media screen and (max-width:680px) {
-  ul.topnav li:not(:last-child) {display: none;}
+  ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
     display: inline-block;
@@ -128,6 +128,11 @@ ul.topnav li.icon {
 
   #navbar a img {
     width: 60px;
+  }
+
+  #navbar .icon a {
+    border-bottom: none;
+    color: #F64747;
   }
 
   #navbar {
@@ -153,6 +158,7 @@ ul.topnav li.icon {
   ul.topnav.responsive li a {
     display: block;
   }
+
 }
 
 h1 {
@@ -251,7 +257,7 @@ footer img {
   }
 
   .container .bg-img {
-    width: 120%;
+    width: 100%;
     padding-top: 20vh;
   }
 
@@ -612,4 +618,67 @@ div {
     font-family: AileronLight;
     font-weight: bold;
     src: url("aileron/Aileron-Light.otf") format("opentype");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbaroverlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F64747;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.navbaroverlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navbaroverlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.navbaroverlay a:hover, .navbaroverlay a:focus {
+    color: white;
+}
+
+.navbaroverlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .navbaroverlay a {font-size: 20px}
+  .navbaroverlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }

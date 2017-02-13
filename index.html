@@ -80,7 +80,7 @@ $(function() { // DOM ready
   });
 
 });
-
+/*
 function resp() {
     var x = document.getElementById("nav");
     if (x.className === "topnav") {
@@ -88,6 +88,15 @@ function resp() {
     } else {
         x.className = "topnav";
     }
+}
+*/
+
+function openNav() {
+    document.getElementById("nav_container").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("nav_container").style.width = "0%";
 }
 
 </script>
@@ -97,21 +106,32 @@ function resp() {
 
 <!-- Fellow developers, considering building your own company? Contact us for any information regarding how to fund your future venture. -->
 <div class="container" id="home">
-	<img class="bg-img" src="lander_3.png">
+	<img class="bg-img" src="lander2.jpg">
 	</img>
 	<div id="navbar">
-			<a href="#home" class="logo"><img src="waveventures_cinnabar_rightalign.png"></img></a>
+			<a href="#home" class="logo"><img src="waveventures_cinnabar_rightalign.png" ></img></a>
 			<ul class="topnav" id="nav">
+        <li class="icon">
+            <a href="javascript:void(0);" style="font-size:30px;" onclick="openNav()">☰</a>
+        </li>         
 				<li><a href="#about">about</a></li>
 				<li><a href="#portfolio">portfolio</a></li>
 				<li><a href="#team">team</a></li>
-        <li><a href="materials.html">materials</a></li>
-				<li><a href="#contact">contact</a></li>
-				<li class="icon">
-    				<a href="javascript:void(0);" style="font-size:30px;" onclick="resp()">☰</a>
-  			</li>
+        <li><a href="materials">materials</a></li>
+				<li><a href="#contact">contact</a></li>     
 			</ul>
 	</div>	
+
+  <div id="nav_container" class="navbaroverlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="navbaroverlay-content">
+      <a href="#about">about</a>
+      <a href="#portfolio">portfolio</a>
+      <a href="#team">team</a>
+      <a href="#materials">materials</a>
+      <a href="#contact">contact</a>
+      </div>
+  </div>  
 
 	<div class="header">
 		<!--<img class="animated fadeIn inner" src="wave_teal.png" alt="Wave">-->
@@ -148,12 +168,12 @@ function resp() {
   <a href="" class="animated fadeInUp">
     <img src="blok_black.png" class="black" alt="">
     <img src="blok_white.png" class="white" alt="">
-      <p>Creating the best home buying experience</p>
+      <p>TBA <br><br><br></p>
   </a>
   <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg03.jpg" class="animated fadeInUp">
     <img src="blok_black.png" class="black" alt="">
     <img src="blok_white.png" class="white" alt="">
-    <p>TBA <br> asd</p>
+    <p>TBA <br><br><br><br></p>
   </a>
   <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg04.jpg" class="animated fadeInUp">
     <img src="blok_black.png" class="black" alt="">
