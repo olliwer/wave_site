@@ -178,10 +178,10 @@ h1 span {
 
 h2 {
     display: inline-block;
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Merriweather', sans-serif;
     font-weight: bold;
-    color: #1cbbb4;
+    color: black;
 }
 
 h3 {
@@ -494,6 +494,10 @@ div {
   margin: 30px auto;
 }
 
+.team h6 {
+  padding-bottom: 10px;
+}
+
 .team .link {
   color: white;
 }
@@ -502,7 +506,7 @@ div {
   margin-left: auto;
   margin-right: auto;
   background: none;
-  width: 40px;
+  width: 60px;
   height: auto;
 }
 
@@ -511,9 +515,9 @@ div {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   width: calc(33% - 20px);
-  margin-left: 12px;
+  margin-left: 8px;
 }
 
 .team .img_container:nth-of-type(2n) {
@@ -707,3 +711,72 @@ div {
     right: 35px;
   }
 }
+
+
+
+
+#resources{
+  padding-top: 10vh;
+width: 75%;
+margin: auto;
+height: 600px;
+background-color: white;
+border: 1px solid white;
+
+
+}
+#fp1{
+width: 25%;
+height: 600px;
+background-color: white;
+float: left;
+}
+
+#fp1 p {
+  padding-top: 40px;
+  font-size: 16px;
+}
+
+#fp2{
+width: 25%;
+height: 600px;
+float: left;
+background-color: white;
+}
+
+#fp2 img{
+  height: 70%;
+}
+
+
+#fp3{
+width: 25%;
+height: 600px;
+float: left;
+background-color: white;
+}
+
+#fp3 img{
+  height: 70%;
+}
+
+#fp4{
+width: 25%;
+height: 600px;
+background-color: white;
+float: left;
+}
+
+#fp4 img{
+  height: 70%;
+}
+
+hr {
+
+  width: 40%;
+  left: 0;
+  color: #F64747;
+background-color: #F64747;
+height: 5px;
+}
+
