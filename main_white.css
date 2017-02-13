@@ -129,6 +129,14 @@ ul.topnav li.icon {
   #navbar a img {
     width: 60px;
   }
+
+  #navbar {
+  text-align: right;
+  right: 20px;
+  top: 20px;
+  left: 20px;
+  position: fixed;
+}
 }
 
 @media screen and (max-width:680px) {
