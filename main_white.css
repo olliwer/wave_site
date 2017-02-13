@@ -1,8 +1,8 @@
-body {
+body, html {
   margin: 0;
-  padding: 0;
   overflow: hidden;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .row {
@@ -252,7 +252,7 @@ footer img {
 
   .container .bg-img {
     width: 120%;
-    padding-top: 30vh;
+    padding-top: 20vh;
   }
 
   .about {
