@@ -301,11 +301,9 @@ footer img {
   border-bottom: 2px solid #e7e9ee;
 }
 
-
-
 .portfolio {
   padding-top: 20vh;
-  width: 75%;
+  width: 60%;
   margin: 30px auto;
   font-family: sans-serif;
 
@@ -326,7 +324,7 @@ div {
 }
 
 .portfolio a {
-  height: 250px;
+  height: 200px;
   color: inherit;
   border: 1px solid rgba(142,142,142,0.2);;
   font-size: 16px;
