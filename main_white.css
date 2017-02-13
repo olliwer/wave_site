@@ -545,8 +545,9 @@ div {
     opacity: 0;
     -webkit-transition: opacity 0.5s;
     transition: opacity 0.5s;
-    font-size: 16px;
-    font-family: 'Merriweather', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'AileronBold', sans-serif;
 }
 
 .heart-rate {
@@ -605,9 +606,25 @@ div {
   }
 }
 
+.advisors {
+    display:block;
+    width:100%;
+    padding:4px;
+    box-sizing:border-box;          /* Make sure that 50% includes the padding */
+    -moz-box-sizing:border-box;     /* For Firefox                             */
+    -webkit-box-sizing:border-box;
+}
+
+.advisors_inner {
+  text-align:left;
+  display:inline-block;
+}
 
 
-
+@font-face {
+    font-family: AileronBold;
+    src: url("aileron/Aileron-Bold.otf") format("opentype");
+}
 
 @font-face {
     font-family: AileronBlack;
@@ -619,13 +636,6 @@ div {
     font-weight: bold;
     src: url("aileron/Aileron-Light.otf") format("opentype");
 }
-
-
-
-
-
-
-
 
 
 
@@ -669,8 +679,8 @@ div {
 
 .navbaroverlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: 0px;
+    right: 10px;
     font-size: 60px;
 }
 
