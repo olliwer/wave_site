@@ -198,6 +198,13 @@ h4 {
     color: #1cbbb4;
 }
 
+h6 {
+  font-family: "AileronItalic", sans-serif;;
+  color: white;
+  font-size: 15px;
+  margin: 0;
+}
+
 p {
 	margin: auto;
 	color: black;
@@ -344,7 +351,7 @@ div {
 
 @media (max-width: 768px) {
   .portfolio a {
-      height: 150px;
+      height: 130px;
       width: calc(50% - 20px);
   }
 
@@ -359,7 +366,7 @@ div {
 
 @media (min-width: 769px) and (max-width: 980px) {
   .portfolio a {
-      height: 180px;
+      height: 130px;
       width: calc(33% - 20px);
   }
 
@@ -374,8 +381,8 @@ div {
 
 @media (min-width: 981px) and (max-width: 1450px) {
   .portfolio a {
-      height: 200px;
-      width: calc(25% - 20px);
+      height: 150px;
+      width: calc(33% - 20px);
   }
 
   #team {
@@ -492,6 +499,8 @@ div {
 }
 
 .team .link img {
+  margin-left: auto;
+  margin-right: auto;
   background: none;
   width: 40px;
   height: auto;
@@ -533,6 +542,12 @@ div {
   padding-top: 50vh;
 }
 
+.overlay h5 {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'AileronBold', sans-serif;
+}
+
 .overlay {
     background:rgba(0,0,0,0.0);
     position:absolute;
@@ -545,9 +560,7 @@ div {
     opacity: 0;
     -webkit-transition: opacity 0.5s;
     transition: opacity 0.5s;
-    font-size: 32px;
     text-align: center;
-    font-family: 'AileronBold', sans-serif;
 }
 
 .heart-rate {
@@ -637,9 +650,11 @@ div {
     src: url("aileron/Aileron-Light.otf") format("opentype");
 }
 
-
-
-
+@font-face {
+    font-family: AileronItalic;
+    font-weight: bold;
+    src: url("aileron/Aileron-SemiBoldItalic.otf") format("opentype");
+}
 
 
 
