@@ -172,11 +172,11 @@ h1 span {
 }
 
 h2 {
-    display: inline-block;
     font-size: 30px;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'AileronBold', sans-serif;
     font-weight: bold;
     color: black;
+    text-align: center;
 }
 
 h3 {
@@ -351,10 +351,10 @@ div {
 
 .portfolio a, p {
   padding-top: 15px;
-    font-size: 13px;
-    text-decoration: none;
-    font-family: 'AileronLight', sans-serif;
-    font-weight: normal;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: 'AileronLight', sans-serif;
+  font-weight: normal;
 }
 
 .portfolio a:hover {
@@ -762,12 +762,23 @@ div {
 
 #resources{
   padding-top: 10vh;
-width: 75%;
-margin: auto;
-height: 800px;
-background-color: white;
+  width: 75%;
+  margin: auto;
+  height: 800px;
+  background-color: white;
 
 }
+
+
+#resources h2 {
+  font-size: 20px;
+
+}
+
+#resources .box_text {
+  text-align: center;
+}
+
 
 #fp1{
 width: 25%;
@@ -842,12 +853,17 @@ float: left;
 }
 
 hr {
-
   width: 40%;
   left: 0;
   color: #F64747;
-background-color: #F64747;
-height: 5px;
+  background-color: #F64747;
+  height: 5px;
+}
+
+.small_hr {
+  margin-top: 40px;
+  width: 10%;
+  height: 2px;
 }
 
 
