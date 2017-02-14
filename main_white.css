@@ -795,7 +795,7 @@ background-color: white;
 }
 
 #fp2 img{
-  width: auto;
+  width: 100%;
   height: 50%;
 }
 
@@ -812,7 +812,7 @@ background-color: white;
 }
 
 #fp3 img{
-  width: auto;
+  width: 100%;
   height: 50%;
 }
 
@@ -830,10 +830,11 @@ float: left;
 
 #fp4 img{
   height: 50%;
-  width: auto;
+  width: 100%;
 }
 
 #fp4 .bottom_img {
+  width: 100%;
   padding-top: 30px;
   height: 20%;
 }
@@ -889,23 +890,32 @@ height: 5px;
 
   #resources {
     height: auto;
-    width: 80%  
+    width: 70%  
+  }
+
+  #resources h1 {
+    font-size: 30px;
   }
 
   #fp1 {
     width: 100%;
+    height: auto;
   }
 
   #fp2 {
     width: 100%;
+    height: auto;
   }
+
 
   #fp3 {
     width: 100%;
+    height: auto;
   }
 
   #fp4 {
     width: 100%;
+    height: auto;
   }
 
   #team .img_container {
