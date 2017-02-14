@@ -99,6 +99,17 @@ function closeNav() {
     document.getElementById("nav_container").style.width = "0%";
 }
 
+
+function openInfo() {
+  document.getElementById("info_container").style.width = "50%";
+}
+
+function closeInfo() {
+  document.getElementById("info_container").style.width = "0%";
+}
+
+
+
 </script>
 
 </head>
@@ -116,7 +127,7 @@ function closeNav() {
         </li>         
 				<li><a href="#about">about</a></li>
 				<li><a href="#portfolio">portfolio</a></li>
-        <li><a href="resources">resources</a></li>
+        <li><a href="#resources">resources</a></li>
         <li><a href="#team">team</a></li>        
 				<li><a href="#contact">contact</a></li>     
 			</ul>
@@ -203,12 +214,67 @@ function closeNav() {
 
 
 <div class="resources" id="resources">
-    <div id="fp1"><hr align="left"><h1>Resources</h1><br><p> To get you started, here's something we've found useful while getting to know the wonderfu world of startups, venture capital and building the future. </p>p<br> <p> All of these resources can be freely found on the internet. We figured to gather the most valuable content into one place with the hope that it will benefit more people than just the few who already know about it.</p> <br><p> Enjoy! </p></div>
-    <div id="fp2"><img src="fp1.jpg"><h2>To start or not to start?</h2><br><p>Material to help your thinking</p></div>
-    <div id="fp3"><img src="fp2.jpg"><h2>To start or not to start?</h2><br><p>Material to help your thinking</p></div>
-    <div id="fp4"><img src="tausta4.jpg"><h2>To start or not to start?</h2><br><p>Material to help your thinking</p></div>
-</div>
+    <div id="fp1">
+    <hr align="left">
+    <h1>Resources</h1><br><p> To get you started in building the future, here's something we've found useful while getting to know the wonderful world of startups and venture capital. </p>p<br> <p> All of these resources can be freely found on the internet. We figured to gather the most valuable content into one place with the hope that it will benefit more people than just the few who already know about it.</p> <br><p> Enjoy! </p></div>
+    <div id="fp2"><img src="fp1.jpg" onclick="openInfo()"><h2>To start or not to start?</h2><br><p>Material to help your thinking</p><img class="bottom_img" src="fp1.jpg"></div>
+    <div id="fp3"><img src="fp2.jpg"><h2>To start or not to start?</h2><br><p>Material to help your thinking</p><img class="bottom_img" src="fp2.jpg"></div>
+    <div id="fp4"><img src="tausta4.jpg"><h2>To start or not to start?</h2><br><p>Material to help your thinking</p><img class="bottom_img" src="tausta4.jpg"></div>
 
+  <div class="info_container" id="info_container" >
+
+    <div class="btn_container">
+      <a href="javascript:void(0)" class="close_info_btn" onclick="closeInfo()">&times;</a>      
+    </div>
+
+    <div class="startcontainer_1"> 
+      <div class="leftdiv">
+        <div class="div1">
+          <img src="fp2.jpg">
+          <div class="textbox">
+            <h5>How to start a Startup</h5>
+            <p>Y Combinator</p>
+          </div>
+
+        </div>
+        <div class="div2">
+          <div class="textbox">
+            <h5>Start With Why</h5>
+            <p>Simon Sinek</p>
+          </div>
+        </div>
+      </div>
+      <div class="div3">
+            <div class="textbox">
+            <h5>The Hard Thing about Hard Things</h5>
+            <p>Ben Horowitz</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="startcontainer_2">
+      <div class="div4">
+          <div class="textbox">
+            <h5>Lean Startup</h5>
+            <p>Eric Ries</p>
+          </div>
+      </div>    
+      <div class="bottomdiv">
+        <div class="div5">
+          <div class="textbox">
+            <h5>Paul Graham's extraordinary essays</h5>
+          </div>
+        </div>  
+        <div class="div6">
+          <div class="textbox">
+            <h5>Team of Teams</h5>
+            <p>Stanley McChrystal</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
 
 
 <div class="separator">
@@ -260,7 +326,7 @@ function closeNav() {
   <div class="advisors_inner">
     <p>Ville Miettinen, Serial Entrepreneur, Angel Investor </p>
     <p>Mårten Janson, Executive Director at Fondia </p>
-    <p> Sten Tamkivi, Founder &amp; CEO atTeleport </p>p
+    <p> Sten Tamkivi, Founder &amp; CEO atTeleport </p>
   </div>
 </div>
 
