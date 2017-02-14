@@ -127,7 +127,7 @@ ul.topnav li.icon {
   }
 
   #navbar a img {
-    width: 60px;
+    display: none;
   }
 
   #navbar .icon a {
@@ -349,78 +349,7 @@ div {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .portfolio a {
-      height: 130px;
-      width: calc(50% - 20px);
-  }
 
-  #team {
-    width: 90%;
-  }
-
-  #team .img_container {
-    width: calc(50% - 20px);
-  }
-}
-
-@media (min-width: 769px) and (max-width: 980px) {
-  .portfolio a {
-      height: 130px;
-      width: calc(33% - 20px);
-  }
-
-  #team {
-    width: 90%;
-  }
-
-  #team .img_container {
-    width: calc(50% - 20px);
-  }
-}
-
-@media (min-width: 981px) and (max-width: 1450px) {
-  .portfolio a {
-      height: 150px;
-      width: calc(33% - 20px);
-  }
-
-  #team {
-    width: 90%;
-  }
-
-  #team .img_container {
-    width: calc(50% - 20px);
-  }
-}
-
-@media (min-width: 1451 px) {
-  .team {
-    width: 60%;
-  }
-
-  #team .img_container {
-    width: calc(50% - 20px);
-  }
-}
-
-.portfolio a:nth-of-type(2n) {
-  margin-right: 0;
-}
-
-@media screen and (min-width: 50em) {
-  a {
-    width: calc(25% - 6px);
-  }
-  
-  a:nth-of-type(2n) {
-    margin-right: 8px;
-  }
-  
-  a:nth-of-type(4n) {
-    margin-right: 0;
-  }
-}
 
 .portfolio a .white {
   display: none;
@@ -710,6 +639,7 @@ div {
 }
 
 .div1 img {
+  float: left;
   width: 70%;
   height: 80%;
   margin-left: auto;
@@ -918,7 +848,128 @@ height: 5px;
 }
 
 
+@media (max-width: 768px) {
+  .about {
+    width: 70%;
+  }
 
+  .portfolio {
+    width: 80%;
+  }
+
+  .portfolio a {
+      height: 130px;
+      width: calc(50% - 20px);
+  }
+
+  .portfolio .black {
+    height: 20px;
+  }
+
+  .portfolio .white {
+    height: 20px;
+  }
+
+  #team {
+    width: 80%;
+  }
+
+  #team h5 {
+    font-size: 20px;
+  }
+
+  #team h6 {
+    font-size: 10px;
+  }
+
+  #team a img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #resources {
+    height: auto;
+    width: 80%  
+  }
+
+  #fp1 {
+    width: 100%;
+  }
+
+  #fp2 {
+    width: 100%;
+  }
+
+  #fp3 {
+    width: 100%;
+  }
+
+  #fp4 {
+    width: 100%;
+  }
+
+  #team .img_container {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 980px) {
+  .portfolio a {
+      height: 130px;
+      width: calc(33% - 20px);
+  }
+
+  #team {
+    width: 90%;
+  }
+
+  #team .img_container {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1450px) {
+  .portfolio a {
+      height: 150px;
+      width: calc(33% - 20px);
+  }
+
+  #team {
+    width: 90%;
+  }
+
+  #team .img_container {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 1451 px) {
+  .team {
+    width: 60%;
+  }
+
+  #team .img_container {
+    width: calc(50% - 20px);
+  }
+}
+
+.portfolio a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+  
+  a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  
+  a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
 
 
 
