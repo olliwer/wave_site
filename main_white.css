@@ -51,14 +51,9 @@ body, html {
     height: auto;
 }
 
-.intro {
-  background-color: white;
-  height: 50vh;
-}
-
 .team {
   background-color: white;
-  height: 50vh;
+  height: auto;
 }
 
 .about {
@@ -260,7 +255,7 @@ footer img {
   }
 
   .container {
-    height: 100vh;
+    height: auto;
   }
 
   .container .bg-img {
@@ -472,7 +467,6 @@ div {
 }
 
 .contact {
-  padding-top: 50vh;
 }
 
 .overlay h5 {
