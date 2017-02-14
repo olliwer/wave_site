@@ -212,7 +212,6 @@ footer {
   background-color: #3d4e4d;
   width: 100%;
 	text-align: center;
-  padding-bottom: 30px;
   bottom: 10px;
   height: 80px;
   margin: 0 auto;
@@ -890,6 +889,11 @@ height: 5px;
 
   #resources h1 {
     font-size: 30px;
+  }
+
+  #resources .bottom_img {
+    visibility: hidden;
+    height: 0px;
   }
 
   #fp1 {
