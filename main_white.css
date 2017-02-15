@@ -641,6 +641,7 @@ div {
   width: 100%;
   background-color: white;
   padding: 10px;
+  position:relative;
 }
 
 .div1 img {
@@ -654,7 +655,14 @@ div {
   display: block;
 }
 
+.textbox h5 {
+  margin:auto;
+}
+
 .textbox {
+  left: 25%;
+  bottom: 20%;
+  text-align: center;
   font-size:24px;
   font-weight:bold;
   background-color: white;
@@ -675,6 +683,7 @@ div {
   height: 50%;
   width: 100%;
   background-color: yellow;
+  position: relative;
 }
 
 .startcontainer_1 .div3 {
@@ -683,6 +692,7 @@ div {
   width: 50%;
   background-color: black;
   top: 0;
+  position: relative;
 }
 
 .startcontainer_2 {
@@ -699,6 +709,7 @@ div {
   height: 50%;
   width: 100%;
   background-color: blue;
+  position: relative;
 }
 
 .startcontainer_2 .div5 {
@@ -706,6 +717,7 @@ div {
   height: 100%;
   width: 50%;
   background-color: purple;
+  position: relative;
 }
 
 .startcontainer_2 .div6 {
@@ -713,6 +725,7 @@ div {
   height: 100%;
   width: 50%;
   background-color: orange;
+  position: relative;
 }
 
 
