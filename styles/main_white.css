@@ -598,7 +598,7 @@ div {
     background-color: white;
     opacity: 1;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 1s;
     box-shadow: 0 0 12px rgba(0,0,0,0.1);
 }
 
@@ -641,9 +641,10 @@ div {
 .startcontainer_1 .div1 {
   height: 50%;
   width: 100%;
-  background-color: white;
-  padding: 10px;
   position:relative;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit  */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko         */
+  box-sizing:border-box; width:100%; border: 20px solid white
 }
 
 .div1 img {
@@ -675,10 +676,9 @@ div {
 
 
 .div1 .textbox {
-  
-    
-  
-
+  right: 0;
+  overflow: hidden;
+  padding: 0;
 }
 
 .startcontainer_1 .div2 {
@@ -686,15 +686,26 @@ div {
   width: 100%;
   background-color: yellow;
   position: relative;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit  */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko         */
+  box-sizing:border-box; width:100%; border: 20px solid white
 }
 
 .startcontainer_1 .div3 {
   height: 100%;
   float: right;
   width: 50%;
-  background-color: black;
+  background-color: #F64747;
   top: 0;
   position: relative;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit  */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko         */
+  box-sizing:border-box; width:50%; border: 20px solid white
+}
+
+.div3 .textbox {
+  left: 0;
+  bottom: 30%;
 }
 
 .startcontainer_2 {
@@ -712,6 +723,7 @@ div {
   width: 100%;
   background-color: blue;
   position: relative;
+  box-sizing:border-box; border: 20px solid white
 }
 
 .startcontainer_2 .div5 {
@@ -720,6 +732,7 @@ div {
   width: 50%;
   background-color: purple;
   position: relative;
+  box-sizing:border-box; border: 20px solid white
 }
 
 .startcontainer_2 .div6 {
@@ -728,6 +741,7 @@ div {
   width: 50%;
   background-color: orange;
   position: relative;
+  box-sizing:border-box; border: 20px solid white
 }
 
 
