@@ -582,8 +582,6 @@ div {
     src: url("aileron/Aileron-SemiBoldItalic.otf") format("opentype");
 }
 
-
-
 .info_container {
     height: 100%;
     width: 0;
@@ -596,6 +594,15 @@ div {
     overflow-x: hidden;
     transition: 0.5s;
     box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.close_container {
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  width: 0;
+  left: 0;
+  top: 0;
 }
 
 .btn_container {

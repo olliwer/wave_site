@@ -37,10 +37,6 @@ $(document).ready(function () {
      });
  });
 
-$(document).ready(function () {
-
-});
-
 $(window).scroll(function() {
   $(".bg-img").css({
     'opacity': 1 - (($(this).scrollTop()-200) / 600)
@@ -80,6 +76,16 @@ $(function() { // DOM ready
   });
 
 });
+
+$(function() {
+    $("body").click(function(e) {
+        if (e.target.id == "close_container"){
+          closeInfo();
+        }
+    });
+});
+
+
 /*
 function resp() {
     var x = document.getElementById("nav");
@@ -102,13 +108,13 @@ function closeNav() {
 
 function openInfo() {
   document.getElementById("info_container").style.width = "50%";
+  document.getElementById("close_container").style.width = "50%";
 }
 
 function closeInfo() {
   document.getElementById("info_container").style.width = "0%";
+  document.getElementById("close_container").style.width = "0%";
 }
-
-
 
 </script>
 
@@ -218,7 +224,7 @@ function closeInfo() {
     <hr align="left">
     <h1>Resources</h1><br><p> To get you started in building the future, here's something we've found useful while getting to know the wonderful world of startups and venture capital. </p>p<br> <p> All of these resources can be freely found on the internet. We figured to gather the most valuable content into one place with the hope that it will benefit more people than just the few who already know about it.</p> <br><p> Enjoy! </p></div>
     <div id="fp2">
-      <img src="fp1.jpg" onclick="openInfo()">
+      <img id="info_img" src="fp1.jpg" onclick="openInfo()">
       <hr class="small_hr" align="center">
       <h2>To start or not to start?</h2><br>
       <p class="box_text">Material to help your thinking.</p>
@@ -239,7 +245,8 @@ function closeInfo() {
       <img class="bottom_img" src="tausta4.jpg">
     </div>
 
-  <div class="info_container" id="info_container" >
+  <div class="close_container" id="close_container"></div>
+  <div class="info_container" id="info_container">
 
     <div class="btn_container">
       <a href="javascript:void(0)" class="close_info_btn" onclick="closeInfo()">&times;</a>      
