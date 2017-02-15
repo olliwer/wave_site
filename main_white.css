@@ -834,6 +834,10 @@ float: left;
 background-color: white;
 }
 
+#fp2:hover {
+  opacity: 0.8;
+}
+
 #fp2 img{
   width: 100%;
   height: 50%;
@@ -851,6 +855,10 @@ float: left;
 background-color: white;
 }
 
+#fp3:hover {
+  opacity: 0.8;
+}
+
 #fp3 img{
   width: 100%;
   height: 50%;
@@ -866,6 +874,10 @@ width: 25%;
 height: 800px;
 background-color: white;
 float: left;
+}
+
+#fp4:hover {
+  opacity: 0.8;
 }
 
 #fp4 img{
