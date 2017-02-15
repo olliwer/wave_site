@@ -946,7 +946,7 @@ hr {
   }
 
   #resources {
-    height: auto;
+
     width: 70%  
   }
 
@@ -965,6 +965,7 @@ hr {
   }
 
   #fp2 {
+    padding-top: 20px;
     width: 100%;
     height: auto;
   }
