@@ -618,8 +618,9 @@ div {
     width: auto;
     color: #F64747;
     position: absolute;
-    left: 0px;
+    left: 20px;
     right: 10px;
+    text-decoration: none;
     font-size: 60px;
 }
 
