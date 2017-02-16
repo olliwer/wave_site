@@ -1042,15 +1042,11 @@ hr {
 
   .portfolio .block_container {
       height: 130px;
-      width: calc(50% - 20px);
+      width: calc(48% - 20px);
   }
 
-  .portfolio .black {
-    height: 20px;
-  }
-
-  .portfolio .white {
-    height: 20px;
+  .portfolio .block_container p {
+    font-size: 10px;
   }
 
   #team {
