@@ -222,7 +222,6 @@ footer {
   width: 100%;
 	text-align: center;
   bottom: 10px;
-  height: 80px;
   margin: 0 auto;
 }
 
@@ -252,15 +251,9 @@ footer img {
     width: 50%;
   }
 
-  footer {
-    margin-bottom: 60px;
-  }
-
   footer img {
-    padding-left: 25px;
-    padding-right: 25px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 
   .container {
