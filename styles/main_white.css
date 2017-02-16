@@ -312,7 +312,7 @@ footer img {
 }
 
 .portfolio {
-  padding-top: 5vh;
+  padding-top: 10vh;
   width: 60%;
   margin: 30px auto;
   font-family: sans-serif;
@@ -1026,6 +1026,10 @@ hr {
   #team h6 {
     font-size: 8px;
     padding-bottom: 2px;
+  }
+
+  #team .advisors h6 {
+    font-size: 10px;
   }
 
   #team a img {
