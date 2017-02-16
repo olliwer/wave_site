@@ -89,17 +89,39 @@ function closeNav() {
     document.getElementById("nav_container").style.width = "0%";
 }
 
-function openInfo() {
+function openInfo1() {
   if (/Mobi/.test(navigator.userAgent)) {
-    document.getElementById("info_container").style.width = "100%";
+    document.getElementById("info_container1").style.width = "100%";
     document.getElementById("close_container").style.width = "100%";
   } else {
-    document.getElementById("info_container").style.width = "50%";
-    document.getElementById("close_container").style.width = "50%";
+    document.getElementById("info_container1").style.width = "65%";
+    document.getElementById("close_container").style.width = "65%";
+  }
+}
+
+function openInfo2() {
+  if (/Mobi/.test(navigator.userAgent)) {
+    document.getElementById("info_container2").style.width = "100%";
+    document.getElementById("close_container").style.width = "100%";
+  } else {
+    document.getElementById("info_container2").style.width = "65%";
+    document.getElementById("close_container").style.width = "65%";
+  }
+}
+
+function openInfo3() {
+  if (/Mobi/.test(navigator.userAgent)) {
+    document.getElementById("info_container3").style.width = "100%";
+    document.getElementById("close_container").style.width = "100%";
+  } else {
+    document.getElementById("info_container3").style.width = "65%";
+    document.getElementById("close_container").style.width = "65%";
   }
 }
 
 function closeInfo() {
-  document.getElementById("info_container").style.width = "0%";
+  document.getElementById("info_container1").style.width = "0%";
+  document.getElementById("info_container2").style.width = "0%";
+  document.getElementById("info_container3").style.width = "0%";  
   document.getElementById("close_container").style.width = "0%";
 }

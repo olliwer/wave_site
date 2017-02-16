@@ -21,6 +21,10 @@ body, html {
   height: 500px;
 }
 
+h5 {
+  font-family: 'AileronBold', sans-serif;
+}
+
 .header img {
   display: inline-block;
   margin-left: auto;
@@ -484,7 +488,6 @@ div {
 .overlay h5 {
     margin: 0;
     font-size: 18px;
-    font-family: 'AileronBold', sans-serif;
 }
 
 .overlay {
@@ -681,6 +684,10 @@ div {
   margin-top: auto;
   margin-bottom: auto;
   display: block;
+}
+
+.div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover {
+  opacity: 0.7;
 }
 
 .textbox h5 {
