@@ -336,26 +336,26 @@ div {
   font-size: 26px;
 }
 
-.portfolio a {
-  height: 200px;
+.portfolio .block_container {
+  overflow: hidden;
   color: inherit;
   border: 1px solid rgba(142,142,142,0.2);;
   font-size: 16px;
-  overflow: hidden;
-  display: inline-block;
-  margin-bottom: 8px;
   width: calc(25% - 20px);
+  display: inline-block;
+  height: 200px;
+  margin-bottom: 8px;
   margin-left: 8px;
   text-align: center;
 }
 
 
 
-.portfolio a .white {
+.portfolio .block_container .white {
   display: none;
 }
 
-.portfolio a, p {
+.portfolio .block_container p {
   padding-top: 15px;
   font-size: 15px;
   text-decoration: none;
@@ -363,15 +363,15 @@ div {
   font-weight: normal;
 }
 
-.portfolio a:hover {
+.portfolio .block_container:hover {
   background-color: #F64747;
 }
 
-.portfolio a:hover .black {
+.portfolio .block_container:hover .black {
   display: none;
 }
 
-.portfolio a:hover .white {
+.portfolio .block_container:hover .white {
   display: inline;
 }
 
@@ -404,7 +404,7 @@ div {
   display: none;
 }
 
-.portfolio a:hover p {
+.portfolio .block_container:hover p {
   color: white;
 }
 
@@ -455,7 +455,7 @@ div {
   position: relative;
   display: inline-block;
   margin-bottom: 8px;
-  width: calc(17% - 20px);
+  width: calc(23% - 20px);
   margin-left: 8px;
 }
 
@@ -1016,6 +1016,10 @@ hr {
     font-size: 12px;
   }
 
+  #navbar a img {
+    display: none;
+  }
+
   .about h3 {
     font-size: 30px;
   }
@@ -1036,7 +1040,7 @@ hr {
     width: 80%;
   }
 
-  .portfolio a {
+  .portfolio .block_container {
       height: 130px;
       width: calc(50% - 20px);
   }
@@ -1133,7 +1137,7 @@ hr {
 }
 
 @media (min-width: 769px) and (max-width: 980px) {
-  .portfolio a {
+  .portfolio .block_container {
       height: 130px;
       width: calc(33% - 20px);
   }
@@ -1148,7 +1152,7 @@ hr {
 }
 
 @media (min-width: 981px) and (max-width: 1450px) {
-  .portfolio a {
+  .portfolio .block_container {
       height: 150px;
       width: calc(33% - 20px);
   }
@@ -1172,7 +1176,7 @@ hr {
   }
 }
 
-.portfolio a:nth-of-type(2n) {
+.portfolio .block_container:nth-of-type(2n) {
   margin-right: 0;
 }
 
