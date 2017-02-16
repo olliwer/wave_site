@@ -62,16 +62,7 @@ $(function() {
 });
 
 
-/*
-function resp() {
-    var x = document.getElementById("nav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-*/
+
 
 function openNav() {
     document.getElementById("nav_container").style.width = "100%";
@@ -81,10 +72,14 @@ function closeNav() {
     document.getElementById("nav_container").style.width = "0%";
 }
 
-
 function openInfo() {
-  document.getElementById("info_container").style.width = "50%";
-  document.getElementById("close_container").style.width = "50%";
+  if (/Mobi/.test(navigator.userAgent)) {
+    document.getElementById("info_container").style.width = "100%";
+    document.getElementById("close_container").style.width = "100%";
+  } else {
+    document.getElementById("info_container").style.width = "50%";
+    document.getElementById("close_container").style.width = "50%";
+  }
 }
 
 function closeInfo() {

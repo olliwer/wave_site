@@ -565,6 +565,22 @@ div {
   display:inline-block;
 }
 
+.advisor {
+  display: inline;
+}
+
+.advisors h6 {
+  display: inline;
+  color: black;
+}
+
+.advisors h5 {
+  padding-right: 5px;
+  display: inline;
+  font-size: 18px;
+  font-family: 'AileronLight', sans-serif;
+  color: black;
+}
 
 @font-face {
     font-family: AileronBold;
@@ -950,6 +966,10 @@ hr {
     font-size: 20px;
   }
 
+  #team .advisor h5 {
+    font-size: 14px;
+  }
+
   #team h6 {
     font-size: 10px;
   }
@@ -979,18 +999,22 @@ hr {
   }
 
   #fp2 {
-    padding-top: 20px;
+    border: 1px solid black;
+    margin-top: 20px;
     width: 100%;
     height: auto;
   }
 
-
   #fp3 {
+    border: 1px solid black;
+    margin-top: 20px;
     width: 100%;
     height: auto;
   }
 
   #fp4 {
+    border: 1px solid black;
+    margin-top: 20px;
     width: 100%;
     height: auto;
   }
