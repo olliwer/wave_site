@@ -581,12 +581,13 @@ div {
 .advisors h6 {
   display: inline;
   color: black;
+  font-size: 16px;
 }
 
 .advisors h5 {
   padding-right: 5px;
   display: inline;
-  font-size: 18px;
+  font-size: 24px;
   font-family: 'AileronLight', sans-serif;
   color: black;
 }
