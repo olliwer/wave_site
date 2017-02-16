@@ -176,7 +176,7 @@ h1 {
 	  text-align: left;
     font-size: 60px;
     font-family: 'AileronBlack', sans-serif;
-    color: black;
+    color: #22313F;
     font-weight: bold;
 }
 
@@ -188,7 +188,7 @@ h2 {
     font-size: 30px;
     font-family: 'AileronBold', sans-serif;
     font-weight: bold;
-    color: black;
+    color: #22313F;
     text-align: center;
 }
 
@@ -197,13 +197,13 @@ h3 {
     font-size: 36px;
     font-family: 'AileronLight', sans-serif;
     font-weight: 100;
-    color: black;
+    color: #22313F;
 }
 
 h4 {
     font-size: 20px;
-    font-family: 'Merriweather', sans-serif;
-    color: #1cbbb4;
+    font-family: 'AileronLight', sans-serif;
+    color: #22313F;
 }
 
 h6 {
@@ -215,10 +215,9 @@ h6 {
 
 p {
 	margin: auto;
-	color: black;
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'AileronLight', sans-serif;
 	font-weight: bold;
-
+  color: #22313F;
 }
 
 footer {
@@ -358,7 +357,7 @@ div {
 
 .portfolio a, p {
   padding-top: 15px;
-  font-size: 13px;
+  font-size: 15px;
   text-decoration: none;
   font-family: 'AileronLight', sans-serif;
   font-weight: normal;
@@ -581,7 +580,7 @@ div {
 
 .advisors h6 {
   display: inline;
-  color: black;
+  color: #22313F;
   font-size: 16px;
 }
 
@@ -590,7 +589,7 @@ div {
   display: inline;
   font-size: 24px;
   font-family: 'AileronLight', sans-serif;
-  color: black;
+  color: #22313F;
 }
 
 @font-face {
@@ -855,8 +854,32 @@ div {
   }
 }
 
+.additional_info h2 {
+  text-align: left;
+}
 
+.icon_container {
+  float: left;
+  width: 16%;
+  text-align: center;
+  color: #22313F;
+}
 
+.icon_container h4 {
+  font-family: "AileronLight", sans-serif;
+  margin-bottom: 15px;
+}
+
+.icon_container h5 {
+  font-family: "AileronBold", sans-serif;
+  font-size: 16px;
+  color: #F64747;
+  
+}
+
+.icon_container img {
+  width: 30px;
+}
 
 #resources{
   padding-top: 10vh;
@@ -889,9 +912,10 @@ float: left;
 
 #fp1 p {
   margin-left: 0;
-  width: 80%;
+  width: 85%;
   padding-top: 40px;
-  font-size: 16px;
+  font-size: 17px;
+  text-align: justify;
 }
 
 #fp1 h1 {
