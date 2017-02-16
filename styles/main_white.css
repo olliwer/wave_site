@@ -624,7 +624,7 @@ div {
     background-color: white;
     opacity: 1;
     overflow-x: hidden;
-    transition: 1s;
+    transition: 0.5s;
     box-shadow: 0 0 12px rgba(0,0,0,0.1);
 }
 
@@ -694,6 +694,8 @@ div {
 }
 
 .textbox {
+  white-space: nowrap;
+  overflow: hidden;
   left: 25%;
   bottom: 20%;
   text-align: center;
@@ -960,6 +962,7 @@ hr {
   color: #F64747;
   background-color: #F64747;
   height: 5px;
+  border: none;
 }
 
 .small_hr {
