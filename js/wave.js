@@ -94,8 +94,8 @@ function openInfo1() {
     document.getElementById("info_container1").style.width = "100%";
     document.getElementById("close_container").style.width = "100%";
   } else {
-    document.getElementById("info_container1").style.width = "65%";
-    document.getElementById("close_container").style.width = "65%";
+    document.getElementById("info_container1").style.width = "35%";
+    document.getElementById("close_container").style.width = "35%";
   }
 }
 
@@ -104,8 +104,8 @@ function openInfo2() {
     document.getElementById("info_container2").style.width = "100%";
     document.getElementById("close_container").style.width = "100%";
   } else {
-    document.getElementById("info_container2").style.width = "65%";
-    document.getElementById("close_container").style.width = "65%";
+    document.getElementById("info_container2").style.width = "35%";
+    document.getElementById("close_container").style.width = "35%";
   }
 }
 
@@ -114,8 +114,8 @@ function openInfo3() {
     document.getElementById("info_container3").style.width = "100%";
     document.getElementById("close_container").style.width = "100%";
   } else {
-    document.getElementById("info_container3").style.width = "65%";
-    document.getElementById("close_container").style.width = "65%";
+    document.getElementById("info_container3").style.width = "35%";
+    document.getElementById("close_container").style.width = "35%";
   }
 }
 

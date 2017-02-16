@@ -669,7 +669,7 @@ div {
   height: 50%;
   width: 100%;
   position:relative;
-  background-color: black;
+  background-color: #F15946;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit  */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko         */
   box-sizing:border-box; width:100%; border: 20px solid white
@@ -691,11 +691,12 @@ div {
 }
 
 .textbox h5 {
-  font-size: 18px;
+  font-size: 14px;
   margin:auto;
 }
 
 .textbox p {
+  font-size: 13px;
   padding-top: 0;
 }
 
@@ -733,7 +734,7 @@ div {
   position: relative;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit  */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko         */
-  box-sizing:border-box; width:100%; border: 30px solid white
+  box-sizing:border-box; width:100%; border: 20px solid white
 }
 
 .startcontainer_1 .div3 {
@@ -745,7 +746,7 @@ div {
   position: relative;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit  */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko         */
-  box-sizing:border-box; width:50%; border: 30px solid white
+  box-sizing:border-box; width:50%; border: 20px solid white
 }
 
 .div3 .textbox {
@@ -768,7 +769,7 @@ div {
   width: 100%;
   background-color: #b56969;
   position: relative;
-  box-sizing:border-box; border: 30px solid white
+  box-sizing:border-box; border: 20px solid white
 }
 
 .startcontainer_2 .div5 {
@@ -777,7 +778,7 @@ div {
   width: 50%;
   background-color: #963019;
   position: relative;
-  box-sizing:border-box; border: 30px solid white
+  box-sizing:border-box; border: 20px solid white
 }
 
 .startcontainer_2 .div6 {
@@ -786,7 +787,7 @@ div {
   width: 50%;
   background-color: orange;
   position: relative;
-  box-sizing:border-box; border: 30px solid white
+  box-sizing:border-box; border: 20px solid white
 }
 
 .div4 .textbox {
