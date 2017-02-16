@@ -675,7 +675,12 @@ div {
 }
 
 .textbox h5 {
+  font-size: 18px;
   margin:auto;
+}
+
+.textbox p {
+  padding-top: 0;
 }
 
 .textbox {
@@ -697,14 +702,20 @@ div {
   padding: 0;
 }
 
+.div2 .textbox {
+  right: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
 .startcontainer_1 .div2 {
   height: 50%;
   width: 100%;
-  background-color: yellow;
+  background-color: #9fa8a3;
   position: relative;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit  */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko         */
-  box-sizing:border-box; width:100%; border: 20px solid white
+  box-sizing:border-box; width:100%; border: 30px solid white
 }
 
 .startcontainer_1 .div3 {
@@ -716,7 +727,7 @@ div {
   position: relative;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit  */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko         */
-  box-sizing:border-box; width:50%; border: 20px solid white
+  box-sizing:border-box; width:50%; border: 30px solid white
 }
 
 .div3 .textbox {
@@ -737,7 +748,7 @@ div {
 .startcontainer_2 .div4 {
   height: 50%;
   width: 100%;
-  background-color: blue;
+  background-color: #b56969;
   position: relative;
   box-sizing:border-box; border: 20px solid white
 }
@@ -746,9 +757,9 @@ div {
   float: left;
   height: 100%;
   width: 50%;
-  background-color: purple;
+  background-color: #963019;
   position: relative;
-  box-sizing:border-box; border: 20px solid white
+  box-sizing:border-box; border: 30px solid white
 }
 
 .startcontainer_2 .div6 {
@@ -757,7 +768,19 @@ div {
   width: 50%;
   background-color: orange;
   position: relative;
-  box-sizing:border-box; border: 20px solid white
+  box-sizing:border-box; border: 30px solid white
+}
+
+.div4 .textbox {
+  right: 0;
+}
+
+.div5 .textbox {
+  right: 0;
+}
+
+.div6 .textbox {
+  left: 0;
 }
 
 
@@ -937,6 +960,14 @@ hr {
 
 
 @media (max-width: 768px) {
+  .textbox h5 {
+    font-size: 12px;
+  }
+
+  .textbox p {
+    font-size: 10px;
+  }
+
   .about {
     width: 70%;
   }
