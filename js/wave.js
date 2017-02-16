@@ -28,6 +28,23 @@ $(window).scroll(function() {
 
 });
 
+/*
+
+var $elem = $('#container');
+$(window).on('load', function () {
+    var in_view = new Waypoint.Inview({
+        element: $('#container')[0],
+        enter: function() {
+            $('#bg_img').addClass('start');
+        },
+        exit: function() {  // optionally
+            $('#bg_img').removeClass('start');
+        }
+    });
+});
+
+*/
+
 $(function() { // DOM ready
 
   $("[data-words]").attr("data-words", function(i, d){
