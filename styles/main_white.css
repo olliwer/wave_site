@@ -854,8 +854,14 @@ div {
   }
 }
 
-.additional_info h2 {
-  text-align: left;
+.additional_info {  
+  padding-top: 5vh; 
+}
+
+.additional_info hr {
+  margin-top: 15px;
+  width: 15%;
+  height: 1px;
 }
 
 .icon_container {
@@ -871,6 +877,7 @@ div {
 }
 
 .icon_container h5 {
+  margin-top: 20px;
   font-family: "AileronBold", sans-serif;
   font-size: 16px;
   color: #F64747;
