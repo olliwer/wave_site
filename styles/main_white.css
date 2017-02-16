@@ -1071,6 +1071,16 @@ hr {
 
   .additional_info .icon_container {
     width: 50%;
+    padding-top: 30px;
+    text-align: left;
+  }
+
+  .additional_info hr {
+    margin-left: 0;
+  }
+
+  .additional_info {
+    padding-top: 0;
   }
 
   .additional_info h4 {
