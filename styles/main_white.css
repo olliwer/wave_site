@@ -104,8 +104,8 @@ body, html {
 }
 
 #navbar a {
-    font-size: 16px;
-    font-family: 'AileronBlack', sans-serif;
+    font-size: 22px;
+    font-family: 'AileronBold', sans-serif;
     /* MerriWeather */
     font-weight: bold;
     color: black;
