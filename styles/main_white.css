@@ -889,6 +889,11 @@ div {
   width: 30px;
 }
 
+.icon_container .icon_img {
+  height: 30px;
+  width: auto;
+}
+
 #resources{
   padding-top: 10vh;
   width: 60%;
@@ -900,7 +905,7 @@ div {
 
 
 #resources h2 {
-  font-size: 20px;
+  font-size: 17px;
   height: 40px;
 
 }
@@ -908,6 +913,7 @@ div {
 #resources .box_text {
   text-align: center;
   height: 40px;
+  font-size: 13px;
 }
 
 
