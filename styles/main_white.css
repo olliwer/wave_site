@@ -237,6 +237,10 @@ footer img {
   height: 40px;
 }
 
+footer .display {
+  height: auto;
+}
+
 @media screen and (max-device-width: 499px) {
   .header {
     margin-top: 10vh;
@@ -1151,13 +1155,17 @@ hr {
 }
 
 @media (min-width: 769px) and (max-width: 980px) {
+  .navbar a .img {
+    display: none;
+  }
+
   .portfolio .block_container {
       height: 130px;
       width: calc(33% - 20px);
   }
 
   #team {
-    width: 80%;
+    width: 60%;
   }
 
   #team .img_container {
@@ -1172,7 +1180,7 @@ hr {
   }
 
   #team {
-    width: 80%;
+    width: 60%;
   }
 
   #team .img_container {
