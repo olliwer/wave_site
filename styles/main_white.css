@@ -1253,6 +1253,10 @@ hr {
     font-size: 10px;
   }
 
+  .portfolio .right_container {
+    margin-top: 10%;
+  }
+
   #team {
     width: 80%;
   }
@@ -1370,6 +1374,14 @@ hr {
       height: 150px;
       width: calc(33% - 20px);
   }
+
+  .portfolio .left_container h2 {
+    min-width: 150px;
+  }  
+
+  .portfolio .left_container p {
+    min-width: 150px;
+  }  
 
   #team {
     width: 60%;
