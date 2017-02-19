@@ -112,7 +112,6 @@ h5 {
     font-family: 'AileronBold', sans-serif;
     /* MerriWeather */
     font-weight: bold;
-    color: black;
     text-decoration: none;
     color: #F64747;
 }
@@ -120,7 +119,7 @@ h5 {
 #navbar a:hover {
     border-bottom: 2px solid #F64747; 
     background-color: transparent;
-    color: black;
+    color: #22313F;
 }
 
 ul.topnav li.icon {
@@ -410,6 +409,88 @@ div {
   display: inline;
 }
 
+.portfolio .portfolio_item_container {
+
+  width: 70%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.portfolio .left_container {
+  display: inline-block;
+  /*white-space: nowrap;*/
+  float: left;
+  width: 60%;
+  padding-right: 15px;
+}
+
+.portfolio .left_container hr {
+  width: 30%;
+  margin-top: 25%;
+}
+
+.portfolio .left_container h2 {
+  font-size: 20px;
+  padding-top: 10vh;
+  text-align: left;
+}
+
+.portfolio .left_container p {
+  text-align: left;
+  color: #22313F;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.portfolio .left_container img {
+  height: 50px;
+  margin-top: 5%;
+}
+
+.portfolio .right_container {
+  margin-top: 50%;
+  padding-left: 15px;
+  border-left: 0.5px solid #22313F;
+  float: left;
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.portfolio .right_container .icon_container {
+  padding-top: 15px;
+  height: 10%;
+  width: 100%;
+}
+
+.portfolio .right_container .icon_container h4 {
+  padding-left: 40px;
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+}
+
+.portfolio .right_container .icon_container h5 {
+  text-align: left;
+  font-size: 10px;
+  padding-left: 40px;
+  margin-top: 3px;
+}
+
+.portfolio .right_container .icon_container img {
+  float: left;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: auto;
+  height: 20px;
+}
+
+
+
+
+
+
 .team .img_container .black {
   display: none;
 }
@@ -668,11 +749,10 @@ div {
     opacity: 1;
     overflow-x: hidden;
     transition: 0.5s;
-    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
 }
 
 .close_container {
-  filter: brightness(50%);
   position: fixed;
   z-index: 1;
   height: 100%;
@@ -730,20 +810,20 @@ div {
 }
 
 .first_page_3 {
-    background-image: url("../img/img4_LeanStartup.jpeg");
+  background-image: url("../img/img4_LeanStartup.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .second_page_1 {
-    background-image: url("../img/img8_BlackSwan.jpg");
+  background-image: url("../img/img8_BlackSwan.jpg");
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .second_page_3 {
-    background-image: url("../img/img7_Creativity.jpg");
+  background-image: url("../img/img7_Creativity.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
