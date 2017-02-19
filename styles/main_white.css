@@ -483,6 +483,11 @@ div {
   margin-top: 3px;
 }
 
+.portfolio .right_container .icon_container .hyperlink:hover {
+  color: #22313F;
+  cursor: pointer;
+}
+
 .portfolio .right_container .icon_container img {
   float: left;
   text-align: left;
