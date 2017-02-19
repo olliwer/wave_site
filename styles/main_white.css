@@ -418,7 +418,7 @@ div {
 
 .portfolio .left_container {
   display: inline-block;
-  /*white-space: nowrap;*/
+  min-width: 60%;
   float: left;
   width: 60%;
   padding-right: 15px;
@@ -433,6 +433,8 @@ div {
   font-size: 20px;
   padding-top: 10vh;
   text-align: left;
+  min-width: 250px;
+  overflow: hidden;
 }
 
 .portfolio .left_container p {
@@ -440,14 +442,18 @@ div {
   color: #22313F;
   font-size: 14px;
   margin-bottom: 14px;
+  min-width: 250px;
+  overflow: hidden;
 }
 
 .portfolio .left_container img {
   height: 50px;
+  min-width: 140px;
   margin-top: 5%;
 }
 
 .portfolio .right_container {
+  white-space: nowrap;
   margin-top: 50%;
   padding-left: 15px;
   border-left: 0.5px solid #22313F;
