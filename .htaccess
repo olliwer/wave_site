@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^www\.wave\.ventures$
+RewriteRule ^/?$ "http\:\/\/wave\.ventures\/" [R=301,L]
