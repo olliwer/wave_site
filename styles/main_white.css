@@ -1407,7 +1407,7 @@ hr {
   }
 }
 
-@media screen {
+@media screen and (min-width:800px) {
   .portfolio .block_container:hover {
     background-color: #F64747;
   }
