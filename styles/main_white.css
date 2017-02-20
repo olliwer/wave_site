@@ -1314,6 +1314,10 @@ hr {
     height: auto;
   }
 
+  #fp1 p {
+    width: 100%;
+  }
+
   #fp2 {
     border: 1px solid black;
     margin-top: 20px;
