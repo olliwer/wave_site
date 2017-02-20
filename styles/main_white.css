@@ -761,7 +761,7 @@ div {
 }
 
 .info_container .close_info_btn {
-    width: auto;
+    width: 10%;
     color: #F64747;
     position: absolute;
     left: 20px;
