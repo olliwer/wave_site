@@ -743,6 +743,8 @@ div {
     overflow-x: hidden;
     transition: 0.5s;
     box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .close_container {
