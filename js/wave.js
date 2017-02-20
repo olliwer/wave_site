@@ -97,10 +97,10 @@ function closeNav() {
 function openInfo_blok() {
   if (/Mobi/.test(navigator.userAgent)) {
     document.getElementById("info_container_blok").style.width = "100%";
-    document.getElementById("close_container").style.width = "100%";
+    document.getElementById("close_container").style.width = "0%";
   } else {
     document.getElementById("info_container_blok").style.width = "45%";
-    document.getElementById("close_container").style.width = "50%";
+    document.getElementById("close_container").style.width = "55%";
   }
 }
 
@@ -108,7 +108,7 @@ function openInfo_blok() {
 function openInfo1() {
   if (/Mobi/.test(navigator.userAgent)) {
     document.getElementById("info_container1").style.width = "100%";
-    document.getElementById("close_container").style.width = "100%";
+    document.getElementById("close_container").style.width = "0%";
   } else {
     document.getElementById("info_container1").style.width = "35%";
     document.getElementById("close_container").style.width = "65%";
@@ -118,7 +118,7 @@ function openInfo1() {
 function openInfo2() {
   if (/Mobi/.test(navigator.userAgent)) {
     document.getElementById("info_container2").style.width = "100%";
-    document.getElementById("close_container").style.width = "100%";
+    document.getElementById("close_container").style.width = "0%";
   } else {
     document.getElementById("info_container2").style.width = "35%";
     document.getElementById("close_container").style.width = "65%";
@@ -128,7 +128,7 @@ function openInfo2() {
 function openInfo3() {
   if (/Mobi/.test(navigator.userAgent)) {
     document.getElementById("info_container3").style.width = "100%";
-    document.getElementById("close_container").style.width = "100%";
+    document.getElementById("close_container").style.width = "0%";
   } else {
     document.getElementById("info_container3").style.width = "35%";
     document.getElementById("close_container").style.width = "65%";
