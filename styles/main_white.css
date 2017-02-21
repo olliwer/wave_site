@@ -696,6 +696,11 @@ div {
   display: inline;
 }
 
+.advisor a:-webkit-any-link {
+    color: #22313F;
+    text-decoration: none;
+}
+
 .advisors h6 {
   display: inline;
   color: #22313F;
@@ -1234,6 +1239,10 @@ hr {
     width: 80%;
   }
 
+  .portfolio h1 {
+    padding-bottom: 30px;
+  }
+
   .portfolio .block_container {
       height: 130px;
       width: calc(48% - 20px);
@@ -1250,6 +1259,10 @@ hr {
 
   #team {
     width: 80%;
+  }
+
+  #team h1 {
+    padding-bottom: 30px;
   }
 
   #team h5 {
