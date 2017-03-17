@@ -549,13 +549,20 @@ div {
 
 .team .link {
   color: white;
+  display: inline-block;
+}
+
+.team .social_container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .team .link img {
   margin-left: auto;
   margin-right: auto;
   background: none;
-  width: 40px;
+  width: 30px;
   height: auto;
 }
 
@@ -1076,7 +1083,7 @@ div {
   padding-top: 10vh;
   width: 60%;
   margin: auto;
-  height: 800px;
+  height: 500px;
   background-color: white;
 
 }
@@ -1096,8 +1103,7 @@ div {
 
 
 #fp1{
-width: 25%;
-height: 800px;
+width: 60%;
 background-color: white;
 float: left;
 }
@@ -1117,8 +1123,7 @@ float: left;
 }
 
 #fp2{
-width: 25%;
-height: 800px;
+width: 30%;
 float: left;
 background-color: white;
 }
@@ -1139,7 +1144,6 @@ background-color: white;
 
 #fp3{
 width: 25%;
-height: 800px;
 float: left;
 background-color: white;
 }
@@ -1160,7 +1164,6 @@ background-color: white;
 
 #fp4{
 width: 25%;
-height: 800px;
 background-color: white;
 float: left;
 }
