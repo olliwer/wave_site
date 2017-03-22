@@ -1092,7 +1092,7 @@ div {
 #resources h2 {
   font-size: 17px;
   height: 40px;
-
+  font-family: "AileronLight", sans-serif;
 }
 
 #resources .box_text {
@@ -1128,8 +1128,16 @@ float: left;
 background-color: white;
 }
 
-#fp2:hover {
-  opacity: 0.8;
+.link_container:hover {
+  background-color: #F64747;
+}
+
+.link_container:hover h2 {
+  color: white;
+}
+
+.link_container:hover p {
+  color: white;
 }
 
 #fp2 img{
@@ -1313,7 +1321,7 @@ hr {
   }
 
   #resources {
-    width: 70%  
+    width: 80%  
   }
 
   #resources h1 {
