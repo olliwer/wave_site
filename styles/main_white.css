@@ -1140,6 +1140,10 @@ background-color: white;
   color: white;
 }
 
+.last {
+  margin-bottom: 40px;
+}
+
 #fp2 img{
   width: 100%;
   height: 50%;
