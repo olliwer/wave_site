@@ -364,6 +364,7 @@ div {
 }
 
 .portfolio h1 {
+  padding-bottom: 30px;
   font-size: 26px;
 }
 
@@ -595,6 +596,7 @@ div {
 
 .team h1 {
   font-size: 26px;
+  padding-bottom: 30px;
 }
 
 .contact {
@@ -1255,10 +1257,6 @@ hr {
   .portfolio {
     padding-top: 5vh;
     width: 70%;
-  }
-
-  .portfolio h1 {
-    padding-bottom: 30px;
   }
 
   .portfolio .block_container {
