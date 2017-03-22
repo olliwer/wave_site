@@ -238,7 +238,6 @@ footer img {
 footer .footer_contact {
   width: 60%;
   margin: 0 auto;
-
 }
 
 footer h1 {
@@ -1225,6 +1224,10 @@ hr {
     width: 100%;
   }
 
+  footer .footer_contact {
+    width: 70%;
+  }  
+
   .textbox h5 {
     font-size: 12px;
   }
@@ -1251,7 +1254,7 @@ hr {
 
   .portfolio {
     padding-top: 5vh;
-    width: 80%;
+    width: 70%;
   }
 
   .portfolio h1 {
@@ -1273,7 +1276,7 @@ hr {
   }
 
   #team {
-    width: 80%;
+    width: 70%;
   }
 
   #team h1 {
@@ -1325,7 +1328,7 @@ hr {
   }
 
   #resources {
-    width: 80%  
+    width: 70%  
   }
 
   #resources h1 {
@@ -1368,7 +1371,7 @@ hr {
   }
 
   #team .img_container {
-    width: calc(33% - 20px);
+    width: calc(50% - 20px);
   }
 }
 
@@ -1379,7 +1382,7 @@ hr {
 
   .portfolio .block_container {
       height: 130px;
-      width: calc(33% - 20px);
+      width: calc(50% - 20px);
   }
 
   #team {
