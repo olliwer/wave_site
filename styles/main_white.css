@@ -6,6 +6,11 @@ body, html {
   -webkit-tap-highlight-color:transparent;
 }
 
+::selection {
+  background: #F64747;
+  color: white;
+}
+
 .row {
   text-align: center;
   display: inline-block;
@@ -547,13 +552,16 @@ div {
 .blog_item {
   margin-top: 20px;
   box-shadow: 0 1px 4px rgba(0,0,0,.04);
-  border: 1px solid rgba(0,0,0,.09);
   margin-right: 20px;
   float: left;
   text-align: center;
   width: 300px;
   height: 300px;
   background-color: #F64747;
+}
+
+.gray {
+  filter: grayscale(1);
 }
 
 .less_margin {
