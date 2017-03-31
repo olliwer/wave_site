@@ -488,11 +488,6 @@ div {
   height: 20px;
 }
 
-
-
-
-
-
 .team .img_container .black {
   display: none;
 }
@@ -516,6 +511,65 @@ div {
   -o-filter: blur(1px);
   -ms-filter: blur(1.5px);
   filter: blur(1.5px);
+}
+
+.news {
+  padding-top: 10vh;
+  margin: auto;
+  width: 60%;
+  height: 800px;
+  background-color: white;
+}
+
+.news h2 {
+  margin-top: 15%;
+  font-family: 'AileronBold';
+  font-size: 30px;
+  color: white;
+}
+
+.news h3 {
+  font-size: 24px;
+  text-align: left;
+  color: white;
+}
+
+.news h1 {
+  font-size: 26px;
+  padding-bottom: 30px;
+}
+
+.blog_container {
+  text-align: center;
+  width: 100%;
+} 
+
+.blog_item {
+  margin-top: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.09);
+  margin-right: 20px;
+  float: left;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-color: #F64747;
+}
+
+.less_margin {
+  margin-top: -60px;
+}
+
+.extra_margin {
+  margin-top: 100px;
+}
+
+.clear {
+  clear: left;
+}
+
+.blog_text {
+  display: none;
 }
 
 .logo {
@@ -939,7 +993,7 @@ div {
 
 .div3 .textbox {
   left: 0;
-  width: 50%;
+  width: 70%;
   bottom: 30%;
 }
 
@@ -1088,16 +1142,14 @@ div {
   padding-top: 10vh;
   width: 60%;
   margin: auto;
-  height: 500px;
+  height: 450px;
   background-color: white;
 
 }
 
-
 #resources h2 {
   font-size: 17px;
   height: 40px;
-  font-family: "AileronLight", sans-serif;
 }
 
 #resources .box_text {
@@ -1143,10 +1195,6 @@ background-color: white;
 
 .link_container:hover p {
   color: white;
-}
-
-.last {
-  margin-bottom: 40px;
 }
 
 #fp2 img{
@@ -1217,7 +1265,6 @@ hr {
 
 
 @media (max-width: 768px) {
-
   .separator {
     padding-bottom: 8vh;
   }
@@ -1233,6 +1280,10 @@ hr {
   footer .footer_contact {
     width: 70%;
   }  
+
+  .last {
+    margin-bottom: 40px;
+  }
 
   .textbox h5 {
     font-size: 12px;
