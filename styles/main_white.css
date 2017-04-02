@@ -1302,6 +1302,10 @@ hr {
     margin-bottom: 40px;
   }
 
+  .textbox {
+    left: 20%;
+  }
+
   .textbox h5 {
     font-size: 12px;
   }
