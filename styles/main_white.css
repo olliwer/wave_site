@@ -1362,6 +1362,7 @@ hr {
   }
 
   .portfolio .block_container p {
+    padding-top: 5px;
     font-size: 10px;
   }
 
