@@ -391,11 +391,23 @@ div {
   text-align: center;
 }
 
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.img_holder {
+  margin-top: 15%;
+  height: 60px;
+}
+
 .portfolio img {
+  vertical-align: middle;
   border: none;
+  text-align: center;
   max-width: 100%;
   height: 30px;
-  margin-top: 25%;
   transition: transform .2s ease-in-out;
 }
 
