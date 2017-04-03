@@ -453,6 +453,11 @@ div {
   margin-top: 5%;
 }
 
+.portfolio .larger img {
+  height: 80px;
+  margin-top: 5%;
+}
+
 .portfolio .right_container {
   white-space: nowrap;
   margin-top: 50%;
