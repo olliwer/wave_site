@@ -104,6 +104,15 @@ function openInfo_blok() {
   }
 }
 
+function openInfo_carbo() {
+  if (/Mobi/.test(navigator.userAgent)) {
+    document.getElementById("info_container_carbo").style.width = "100%";
+    document.getElementById("close_container").style.width = "0%";
+  } else {
+    document.getElementById("info_container_carbo").style.width = "45%";
+    document.getElementById("close_container").style.width = "55%";
+  }
+}
 
 function openInfo1() {
   if (/Mobi/.test(navigator.userAgent)) {
@@ -139,6 +148,7 @@ function closeInfo() {
   document.getElementById("info_container1").style.width = "0%";
   document.getElementById("info_container2").style.width = "0%";
   document.getElementById("info_container3").style.width = "0%";  
-  document.getElementById("info_container_blok").style.width = "0%";  
+  document.getElementById("info_container_blok").style.width = "0%"; 
+  document.getElementById("info_container_carbo").style.width = "0%";   
   document.getElementById("close_container").style.width = "0%";
 }
