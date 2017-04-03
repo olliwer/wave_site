@@ -569,6 +569,10 @@ div {
   background-color: #F64747;
 }
 
+.with_image {
+  background-color: white;
+}
+
 .extra_margin {
   margin-top: 100px;
 }
