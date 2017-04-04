@@ -1332,7 +1332,7 @@ hr {
   }
 
   .textbox h5 {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   #navbar a img {
@@ -1361,8 +1361,10 @@ hr {
   }
 
   .portfolio .block_container {
-      height: 130px;
-      width: calc(48% - 20px);
+    height: 130px;
+    width: calc(48%);
+    margin-bottom: 4px;
+    margin-left: 3px;
   }
 
   .portfolio .block_container p {
