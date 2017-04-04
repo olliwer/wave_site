@@ -347,13 +347,23 @@ footer .display {
   }
 }
 
-
 .separator {
   padding-bottom: 15vh;
   width: 50%;
   text-align: center;
   margin: auto;
   border-bottom: 2px solid #e7e9ee;
+}
+
+.portfolio_block_container {
+  text-align: center;
+  -moz-column-count: 4;
+  -moz-column-gap: 5px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 4;
+  column-gap: 10px;
+  width: 100%;
 }
 
 .portfolio {
@@ -378,16 +388,15 @@ div {
 }
 
 .portfolio .block_container {
+  height: 200px;
   vertical-align: top;
   overflow: hidden;
   color: inherit;
   border: 1px solid rgba(142,142,142,0.2);;
   font-size: 16px;
-  width: calc(25% - 20px);
-  display: inline-block;
-  height: 200px;
-  margin-bottom: 8px;
-  margin-left: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -418,6 +427,8 @@ div {
 .portfolio .block_container p {
   padding-top: 15px;
   font-size: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-decoration: none;
   font-family: 'AileronLight', sans-serif;
   font-weight: normal;
@@ -1360,16 +1371,26 @@ hr {
     width: 70%;
   }
 
+  .portfolio_block_container {
+    -moz-column-count: 2;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 10px;
+    width: 100%;
+  }
+
   .portfolio .block_container {
     height: 130px;
-    width: calc(48%);
-    margin-bottom: 4px;
-    margin-left: 3px;
+    margin-bottom: 10px;
   }
 
   .portfolio .block_container p {
     padding-top: 5px;
     font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .portfolio .right_container {
@@ -1521,9 +1542,17 @@ hr {
     display: none;
   }
 
+  .portfolio_block_container {
+    -moz-column-count: 2;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+  }
+
   .portfolio .block_container {
-      height: 130px;
-      width: calc(50% - 20px);
+      height: 200px;
   }
 
   #team {
@@ -1536,9 +1565,13 @@ hr {
 }
 
 @media (min-width: 981px) and (max-width: 1450px) {
-  .portfolio .block_container {
-      height: 150px;
-      width: calc(33% - 20px);
+  .portfolio_block_container {
+    -moz-column-count: 2;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
   }
 
   .portfolio .left_container h2 {
