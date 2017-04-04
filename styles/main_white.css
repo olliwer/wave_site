@@ -1223,6 +1223,10 @@ float: left;
 background-color: white;
 }
 
+.link_container {
+  position: relative;
+}
+
 .link_container:hover {
   background-color: #F64747;
 }
