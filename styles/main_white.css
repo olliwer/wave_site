@@ -388,6 +388,7 @@ div {
 }
 
 .portfolio .block_container {
+  position: relative;
   height: 200px;
   vertical-align: top;
   overflow: hidden;
@@ -1404,6 +1405,7 @@ hr {
   #news {
     padding-top: 10vh;
     width: 70%;
+    height: 900px;
   }
 
   .blog_container {
