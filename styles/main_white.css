@@ -366,6 +366,13 @@ footer .display {
   width: 100%;
 }
 
+.background_img_container {
+  background-image: url("https://media.giphy.com/media/tTyTbFF9uEbPW/giphy.gif");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
 .portfolio {
   padding-top: 10vh;
   width: 60%;
@@ -399,6 +406,13 @@ div {
   width: 100%;
   margin-bottom: 20px;
   text-align: center;
+}
+
+#nyan_launch {
+  float: left;
+  z-index: 10;
+  height: 260px;
+  margin-top: 30px;
 }
 
 .helper {

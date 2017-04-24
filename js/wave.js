@@ -28,6 +28,8 @@ $(window).scroll(function() {
 
 });
 
+
+
 /*
 
 var $elem = $('#container');
@@ -86,6 +88,38 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-92162399-1', 'auto');
 ga('send', 'pageview');
 
+function launchNyan() {
+    document.getElementById("nyan_launch").style.display = "inline";
+    document.getElementById("nyan_launch").style.position = "absolute";
+
+    document.getElementById("nyan_static").src = "https://s-media-cache-ak0.pinimg.com/originals/af/87/6d/af876d806a23a0f8badd707890825d73.gif"   
+    document.getElementById("nyan_static").style.height = "323px";
+
+    var audio = new Audio('nyan_cut.mp3');
+    audio.play();
+
+    var elem = document.getElementById('nyan_launch'), pos = 0, ctr = 0,
+        timer = setInterval(function() {
+            pos+=7;
+            ctr+=7;
+            elem.style.left = pos+"px";
+            if( pos > 1200) {
+              pos = -1000;
+            }
+            if (ctr > 2200) {
+              pos = 2500;
+              clearInterval(timer);
+              drawStatic();
+            }
+        },1);
+}
+
+function drawStatic() {
+  document.getElementById("nyan_launch").style.display = "none";
+  document.getElementById("nyan_static").style.visibility = "visible";
+  document.getElementById("nyan_static").src = "img/nyan.gif-c200"  
+}
+
 function openNav() {
     document.getElementById("nav_container").style.width = "100%";
 }
@@ -110,6 +144,16 @@ function openInfo_carbo() {
     document.getElementById("close_container").style.width = "0%";
   } else {
     document.getElementById("info_container_carbo").style.width = "45%";
+    document.getElementById("close_container").style.width = "55%";
+  }
+}
+
+function openInfo_unicorn() {
+  if (/Mobi/.test(navigator.userAgent)) {
+    document.getElementById("info_container_unicorn").style.width = "100%";
+    document.getElementById("close_container").style.width = "0%";
+  } else {
+    document.getElementById("info_container_unicorn").style.width = "45%";
     document.getElementById("close_container").style.width = "55%";
   }
 }
@@ -150,5 +194,6 @@ function closeInfo() {
   document.getElementById("info_container3").style.width = "0%";  
   document.getElementById("info_container_blok").style.width = "0%"; 
   document.getElementById("info_container_carbo").style.width = "0%";   
+  document.getElementById("info_container_unicorn").style.width = "0%"; 
   document.getElementById("close_container").style.width = "0%";
 }
