@@ -147,8 +147,14 @@ function openInfo_carbo() {
     document.getElementById("close_container").style.width = "55%";
   }
 }
+var audio = new Audio("http://www.sousound.com/music/healing/healing_01.mp3");
+//var audio = new Audio("unicorn.mp3");
 
 function openInfo_unicorn() {
+  
+  audio.load();
+  audio.play();
+
   if (/Mobi/.test(navigator.userAgent)) {
     document.getElementById("info_container_unicorn").style.width = "100%";
     document.getElementById("close_container").style.width = "0%";
@@ -189,6 +195,7 @@ function openInfo3() {
 }
 
 function closeInfo() {
+  audio.pause();
   document.getElementById("info_container1").style.width = "0%";
   document.getElementById("info_container2").style.width = "0%";
   document.getElementById("info_container3").style.width = "0%";  
