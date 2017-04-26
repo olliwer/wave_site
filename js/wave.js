@@ -94,10 +94,10 @@ nyan_audio.muted = true;
 function setSound() {
   if (nyan_audio.muted) {
       nyan_audio.muted = false;
-      document.getElementById("audio_button").src = "sounds.png"  
+      document.getElementById("audio_button").src = "img/sounds.png"  
   } else {
       nyan_audio.muted = true;
-      document.getElementById("audio_button").src = "muted.png"  
+      document.getElementById("audio_button").src = "img/muted.png"  
   }
 }
 
@@ -105,7 +105,7 @@ function launchNyan() {
     document.getElementById("nyan_launch").style.display = "inline";
     document.getElementById("nyan_launch").style.position = "absolute";
     var height = $('#nyan_static').height();
-    document.getElementById("nyan_static").src = "nuclear.gif"   
+    document.getElementById("nyan_static").src = "https://im.ezgif.com/tmp/ezgif-1-aab814bcac.gif"   
     document.getElementById("nyan_static").style.height = height + "px";
 
     nyan_audio.play();
