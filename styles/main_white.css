@@ -626,6 +626,24 @@ div {
   margin-top: 100px;
 }
 
+#audio_button {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  cursor: pointer;
+  width: 20px;
+}
+
+#launch_button {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  width: 20px;
+}
+
 .hoverable:hover {
   background-color: #22313F;
   cursor: pointer;

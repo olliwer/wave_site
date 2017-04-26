@@ -88,25 +88,38 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-92162399-1', 'auto');
 ga('send', 'pageview');
 
+var nyan_audio = new Audio('nyan_cut.mp3');
+nyan_audio.muted = true; 
+
+function setSound() {
+  if (nyan_audio.muted) {
+      nyan_audio.muted = false;
+      document.getElementById("audio_button").src = "sounds.png"  
+  } else {
+      nyan_audio.muted = true;
+      document.getElementById("audio_button").src = "muted.png"  
+  }
+}
+
 function launchNyan() {
     document.getElementById("nyan_launch").style.display = "inline";
     document.getElementById("nyan_launch").style.position = "absolute";
+    var height = $('#nyan_static').height();
+    document.getElementById("nyan_static").src = "nuclear.gif"   
+    document.getElementById("nyan_static").style.height = height + "px";
 
-    document.getElementById("nyan_static").src = "https://s-media-cache-ak0.pinimg.com/originals/af/87/6d/af876d806a23a0f8badd707890825d73.gif"   
-    document.getElementById("nyan_static").style.height = "323px";
+    nyan_audio.play();
 
-    var audio = new Audio('nyan_cut.mp3');
-    audio.play();
+    var width = $(window).width();
 
-    var elem = document.getElementById('nyan_launch'), pos = 0, ctr = 0,
+    var elem = document.getElementById('nyan_launch'), pos = 0,
         timer = setInterval(function() {
             pos+=7;
-            ctr+=7;
             elem.style.left = pos+"px";
-            if( pos > 1200) {
-              pos = -1000;
+            if( pos > (width/2)) {
+              pos = -(width/2);
             }
-            if (ctr > 2200) {
+            if (pos > -10 && pos < 0) {
               pos = 2500;
               clearInterval(timer);
               drawStatic();
@@ -144,22 +157,6 @@ function openInfo_carbo() {
     document.getElementById("close_container").style.width = "0%";
   } else {
     document.getElementById("info_container_carbo").style.width = "45%";
-    document.getElementById("close_container").style.width = "55%";
-  }
-}
-var audio = new Audio("http://www.sousound.com/music/healing/healing_01.mp3");
-//var audio = new Audio("unicorn.mp3");
-
-function openInfo_unicorn() {
-  
-  audio.load();
-  audio.play();
-
-  if (/Mobi/.test(navigator.userAgent)) {
-    document.getElementById("info_container_unicorn").style.width = "100%";
-    document.getElementById("close_container").style.width = "0%";
-  } else {
-    document.getElementById("info_container_unicorn").style.width = "45%";
     document.getElementById("close_container").style.width = "55%";
   }
 }
@@ -201,6 +198,5 @@ function closeInfo() {
   document.getElementById("info_container3").style.width = "0%";  
   document.getElementById("info_container_blok").style.width = "0%"; 
   document.getElementById("info_container_carbo").style.width = "0%";   
-  document.getElementById("info_container_unicorn").style.width = "0%"; 
   document.getElementById("close_container").style.width = "0%";
 }
