@@ -105,7 +105,7 @@ function launchNyan() {
     document.getElementById("nyan_launch").style.display = "inline";
     document.getElementById("nyan_launch").style.position = "absolute";
     var height = $('#nyan_static').height();
-    document.getElementById("nyan_static").src = "https://im.ezgif.com/tmp/ezgif-1-aab814bcac.gif"   
+    document.getElementById("nyan_static").src = "img/nyan_loop.gif"   
     document.getElementById("nyan_static").style.height = height + "px";
 
     nyan_audio.play();
