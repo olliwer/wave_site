@@ -192,7 +192,6 @@ function openInfo3() {
 }
 
 function closeInfo() {
-  audio.pause();
   document.getElementById("info_container1").style.width = "0%";
   document.getElementById("info_container2").style.width = "0%";
   document.getElementById("info_container3").style.width = "0%";  
