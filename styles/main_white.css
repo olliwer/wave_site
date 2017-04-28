@@ -138,7 +138,6 @@ h5 {
 }
 
 #navbar a:hover {
-    border-bottom: 2px solid #F64747; 
     background-color: transparent;
     color: #22313F;
 }
@@ -1460,7 +1459,7 @@ hr {
   #news {
     padding-top: 10vh;
     width: 70%;
-    height: 1100px;
+    height: 1200px;
   }
 
   .blog_container {
