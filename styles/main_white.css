@@ -158,6 +158,10 @@ ul.topnav li.icon {
     display: none;
   }
 
+  #navbar-icon img {
+    display: none;
+  }  
+
   #navbar .icon a {
     border-bottom: none;
     color: #F64747;
@@ -1396,6 +1400,10 @@ hr {
   }
 
   #navbar a img {
+    display: none;
+  }
+
+  #navbar-icon img {
     display: none;
   }
 
