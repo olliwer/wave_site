@@ -413,7 +413,7 @@ div {
   vertical-align: top;
   overflow: hidden;
   color: inherit;
-  border: 1px solid rgba(142,142,142,0.2);;
+  border: 1px solid rgba(142,142,142,0.2);
   font-size: 16px;
   display: block;
   margin-bottom: 20px;
@@ -965,7 +965,7 @@ div {
 }
 
 .startcontainer_1 .first_page_1 {
-  background-image: url("../img/img1_YC.jpeg");
+  background-image: url("../img/yc.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -983,7 +983,7 @@ div {
 }
 
 .first_page_6 {
-  background-image: url("../img/tot.png");
+  background-image: url("../img/tot.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -996,7 +996,7 @@ div {
 }
 
 .second_page_3 {
-  background-image: url("../img/img7_Creativity.jpg");
+  background-image: url("../img/creativity.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1161,7 +1161,7 @@ div {
     background-color: #F64747;
     opacity: 1;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .navbaroverlay-content {
@@ -1290,6 +1290,8 @@ background-color: white;
 
 .link_container {
   position: relative;
+  margin-top: 10px;
+  border: 1px solid rgba(142,142,142,0.2);
 }
 
 .link_container:hover {
@@ -1470,7 +1472,6 @@ hr {
   } 
 
   .blog_item {
-    margin-top: 20px;
     width: 100%;
     height: auto;
   }
@@ -1571,7 +1572,6 @@ hr {
   }
 
   #fp2 {
-    border: 1px solid black;
     margin-top: 20px;
     width: 100%;
     height: auto;
