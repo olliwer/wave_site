@@ -171,6 +171,15 @@ function openInfo_surgify() {
   }
 }
 
+function openInfo_quicksave() {
+  if (/Mobi/.test(navigator.userAgent)) {
+    document.getElementById("info_container_quicksave").style.width = "100%";
+    document.getElementById("close_container").style.width = "0%";
+  } else {
+    document.getElementById("info_container_quicksave").style.width = "45%";
+    document.getElementById("close_container").style.width = "55%";
+  }
+}
 
 function openInfo1() {
   if (/Mobi/.test(navigator.userAgent)) {
@@ -209,5 +218,6 @@ function closeInfo() {
   document.getElementById("info_container_blok").style.width = "0%"; 
   document.getElementById("info_container_carbo").style.width = "0%";  
   document.getElementById("info_container_surgify").style.width = "0%";  
+  document.getElementById("info_container_quicksave").style.width = "0%";  
   document.getElementById("close_container").style.width = "0%";
 }

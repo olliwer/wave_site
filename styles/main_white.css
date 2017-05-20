@@ -416,7 +416,7 @@ div {
   border: 1px solid rgba(142,142,142,0.2);
   font-size: 16px;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -1374,6 +1374,10 @@ hr {
 
 
 @media (max-width: 768px) {
+  .mobile_shortened {
+    height: 150px;
+  }
+
   .separator {
     width: 90%;
     padding-bottom: 8vh;
@@ -1601,6 +1605,10 @@ hr {
     display: none;
   }
 
+  .mobile_shortened {
+    height: 210px;
+  }
+
   .portfolio_block_container {
     -moz-column-count: 2;
     -moz-column-gap: 5px;
@@ -1624,6 +1632,10 @@ hr {
 }
 
 @media (min-width: 981px) and (max-width: 1450px) {
+  .mobile_shortened {
+    height: 200px;
+  }
+
   .portfolio_block_container {
     -moz-column-count: 2;
     -moz-column-gap: 5px;
