@@ -368,17 +368,6 @@ footer .display {
   border-bottom: 2px solid #e7e9ee;
 }
 
-.portfolio_block_container {
-  text-align: center;
-  -moz-column-count: 4;
-  -moz-column-gap: 5px;
-  -webkit-column-count: 4;
-  -webkit-column-gap: 20px;
-  column-count: 4;
-  column-gap: 10px;
-  width: 100%;
-}
-
 .background_img_container {
   background-image: url("https://media.giphy.com/media/tTyTbFF9uEbPW/giphy.gif");
   background-repeat: no-repeat;
@@ -407,6 +396,15 @@ div {
   font-size: 26px;
 }
 
+.portfolio_block_container {
+  text-align: center;
+  -moz-column-count: 4;
+  -webkit-column-count: 4;
+  column-count: 4;
+  column-gap: 0px;
+  width: 100%;
+}
+
 .portfolio .block_container {
   position: relative;
   height: 200px;
@@ -416,8 +414,8 @@ div {
   border: 1px solid rgba(142,142,142,0.2);
   font-size: 16px;
   display: block;
-  margin-bottom: 10px;
   text-align: center;
+  cursor: pointer;
 }
 
 #nyan_launch {
@@ -1434,17 +1432,13 @@ hr {
 
   .portfolio_block_container {
     -moz-column-count: 2;
-    -moz-column-gap: 5px;
     -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
     column-count: 2;
-    column-gap: 10px;
     width: 100%;
   }
 
   .portfolio .block_container {
     height: 130px;
-    margin-bottom: 10px;
   }
 
   .portfolio .block_container p {
@@ -1611,11 +1605,8 @@ hr {
 
   .portfolio_block_container {
     -moz-column-count: 2;
-    -moz-column-gap: 5px;
     -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
     column-count: 2;
-    column-gap: 20px;
   }
 
   .portfolio .block_container {
@@ -1638,11 +1629,8 @@ hr {
 
   .portfolio_block_container {
     -moz-column-count: 2;
-    -moz-column-gap: 5px;
     -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
     column-count: 2;
-    column-gap: 20px;
   }
 
   .portfolio .left_container h2 {
