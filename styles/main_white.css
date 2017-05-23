@@ -418,6 +418,10 @@ div {
   cursor: pointer;
 }
 
+.desktop_left {
+  margin-left: -1px;
+}
+
 #nyan_launch {
   float: left;
   z-index: 100;
@@ -1374,6 +1378,10 @@ hr {
 @media (max-width: 768px) {
   .mobile_shortened {
     height: 150px;
+  }
+
+  .desktop_left {
+    margin-left: 0px;
   }
 
   .separator {
