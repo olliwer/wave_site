@@ -181,43 +181,22 @@ function openInfo_quicksave() {
   }
 }
 
-function openInfo1() {
+function openInfo_portyr() {
   if (/Mobi/.test(navigator.userAgent)) {
-    document.getElementById("info_container1").style.width = "100%";
+    document.getElementById("info_container_portyr").style.width = "100%";
     document.getElementById("close_container").style.width = "0%";
   } else {
-    document.getElementById("info_container1").style.width = "35%";
-    document.getElementById("close_container").style.width = "65%";
+    document.getElementById("info_container_portyr").style.width = "45%";
+    document.getElementById("close_container").style.width = "55%";
   }
 }
 
-function openInfo2() {
-  if (/Mobi/.test(navigator.userAgent)) {
-    document.getElementById("info_container2").style.width = "100%";
-    document.getElementById("close_container").style.width = "0%";
-  } else {
-    document.getElementById("info_container2").style.width = "35%";
-    document.getElementById("close_container").style.width = "65%";
-  }
-}
-
-function openInfo3() {
-  if (/Mobi/.test(navigator.userAgent)) {
-    document.getElementById("info_container3").style.width = "100%";
-    document.getElementById("close_container").style.width = "0%";
-  } else {
-    document.getElementById("info_container3").style.width = "35%";
-    document.getElementById("close_container").style.width = "65%";
-  }
-}
 
 function closeInfo() {
-  document.getElementById("info_container1").style.width = "0%";
-  document.getElementById("info_container2").style.width = "0%";
-  document.getElementById("info_container3").style.width = "0%";  
   document.getElementById("info_container_blok").style.width = "0%"; 
   document.getElementById("info_container_carbo").style.width = "0%";  
   document.getElementById("info_container_surgify").style.width = "0%";  
   document.getElementById("info_container_quicksave").style.width = "0%";  
+  document.getElementById("info_container_portyr").style.width = "0%"; 
   document.getElementById("close_container").style.width = "0%";
 }

@@ -243,7 +243,7 @@ p {
 }
 
 footer {
-  background-color: #3d4e4d;
+  background-color: #34495e;
   bottom: 10px;
   margin: 0 auto;
 }
@@ -467,7 +467,6 @@ div {
 }
 
 .portfolio .portfolio_item_container {
-
   width: 70%;
   height: 80%;
   margin: 0 auto;
@@ -1247,7 +1246,7 @@ div {
   padding-top: 10vh;
   width: 60%;
   margin: auto;
-  height: 450px;
+  height: 800px;
   background-color: white;
 
 }
@@ -1263,11 +1262,110 @@ div {
   font-size: 13px;
 }
 
+#resource_tab_container {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.box_text {
+  margin-bottom: 20px;
+}
+
+.resource_img_container {
+  width: 10%;
+}
+
+.resource_text_container {
+  width: 80%;
+  height: 100%;
+  margin-left: 12%;
+  color: #22313F;
+}
+
+.resource_text_container:hover {
+  background-color: #F64747;
+  cursor: pointer;
+}
+
+.resource_text_container:hover h3 {
+  color: white;
+}
+
+.resource_text_container:hover h4 {
+  color: white;
+}
+
+#resource_tab_1 {
+  text-align: left;
+  float: left;
+  width: 33%;
+}
+
+#resource_tab_1 h2 {
+  height: 20px;
+  text-align: left;
+}
+
+#resource_tab_1 .box_text {
+  text-align: left;
+}
+
+#resource_tab_2 h2 {
+  height: 20px;
+  text-align: left;
+}
+
+#resource_tab_2 .box_text {
+  text-align: left;
+}
+
+#resource_tab_3 h2 {
+  height: 20px;
+  text-align: left;
+}
+
+#resource_tab_3 .box_text {
+  text-align: left;
+}
+
+#resource_tab_2 {
+  text-align: left;
+  float: left;
+  width: 33%;
+}
+
+#resource_tab_3 {
+  text-align: left;
+  float: left;
+  width: 33%;
+}
+
+.link_item {
+  height: 50px;
+}
+
+.link_item img {
+  height: 25px;
+  float: left;
+}
+
+.link_item h3 {
+  font-family: 'AileronBold', sans-serif;
+  font-size: 12px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.link_item h4 {
+  font-style: italic;
+  margin-top: 5px;
+  font-size: 10px;
+}
 
 #fp1{
 width: 60%;
 background-color: white;
-float: left;
 }
 
 #fp1 p {
@@ -1421,6 +1519,18 @@ hr {
     display: none;
   }
 
+  #resource_tab_1 {
+    width: 100%;
+  }
+
+  #resource_tab_2 {
+    width: 100%;
+  }
+
+  #resource_tab_3 {
+    width: 100%;
+  }
+
   .about h3 {
     font-size: 20px;
   }
@@ -1555,8 +1665,12 @@ hr {
 
   #resources {
     padding-top: 3vh;
-    height: 1000px;
+    height: 1700px;
     width: 70%  
+  }
+
+  .resource_text_container {
+    margin-left: 14%;
   }
 
   #resources h1 {
