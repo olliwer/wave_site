@@ -587,7 +587,7 @@ div {
   padding-top: 10vh;
   margin: auto;
   width: 60%;
-  height: 800px;
+  height: 1200px;
   background-color: white;
 }
 
@@ -767,6 +767,12 @@ div {
     padding-bottom: 80px;
     margin: 30px auto;
     height: 100px;
+}
+
+.contact h1 {
+  margin-top: 0;
+  font-size: 26px;
+  padding-bottom: 30px;
 }
 
 .contact .contact_header {
@@ -1635,7 +1641,7 @@ hr {
   #news {
     padding-top: 5vh;
     width: 70%;
-    height: 1150px;
+    height: 2600px;
   }
 
   .blog_container {
