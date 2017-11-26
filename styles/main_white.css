@@ -416,6 +416,7 @@ div {
   display: block;
   text-align: center;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .desktop_left {
@@ -632,6 +633,7 @@ div {
 } 
 
 .blog_item {
+  border-radius: 10px;
   box-shadow: 0 1px 4px rgba(0,0,0,.04);
   display: inline-block;
   position: relative;
@@ -660,6 +662,7 @@ div {
 }
 
 #launch_button {
+  padding-right: 3px;
   z-index: 2;
   position: absolute;
   bottom: 0;
@@ -759,6 +762,61 @@ div {
 }
 
 .contact {
+    width: 60%;
+    padding-top: 5vh;
+    padding-bottom: 80px;
+    margin: 30px auto;
+    height: 100px;
+}
+
+.contact .contact_header {
+  float: left;
+  width: 50%;
+}
+
+.contact p {
+  text-align: left;
+  font-size: 40px;
+  color: #34495e;
+  font-family: 'AileronBold', sans-serif;
+  font-weight: bold;
+}
+
+.contact .link_wrapper {
+  height: 48px;
+  width: 60%;
+  line-height: 48px;
+  text-align: center;
+  background-color: #34495e;
+  border-radius: 10px;
+}
+
+.contact .link_wrapper p {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.contact .link_wrapper:hover {
+  background-color: #F64747;
+}
+
+.contact h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.contact .send_deck {
+  float: left;
+  width: 50%;
+}
+
+.contact input[type=text] {
+  width: 40%;
+}
+
+.contact input[type=email] {
+  width: 40%;
 }
 
 .overlay h5 {
@@ -1341,6 +1399,7 @@ div {
 }
 
 .link_item {
+  margin-top: 5px;
   height: 50px;
 }
 
@@ -1360,7 +1419,7 @@ div {
 .link_item h4 {
   font-style: italic;
   margin-top: 5px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 #fp1{
@@ -1665,7 +1724,7 @@ hr {
 
   #resources {
     padding-top: 3vh;
-    height: 1700px;
+    height: 1800px;
     width: 70%  
   }
 
