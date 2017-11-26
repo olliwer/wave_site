@@ -1641,7 +1641,7 @@ hr {
   #news {
     padding-top: 5vh;
     width: 70%;
-    height: 2600px;
+    height: 1000px;
   }
 
   .blog_container {
@@ -1651,7 +1651,8 @@ hr {
 
   .blog_item {
     width: 100%;
-    height: auto;
+    height: 80px;
+    margin-bottom: 5px;
   }
 
   .with_image {
@@ -1659,8 +1660,9 @@ hr {
   }
 
   .news h2 {
-    margin-top: 20%;
-    font-size: 18px;
+    margin-top: 5%;
+    font-size: 12px;
+    padding-right: 10%;
   }
 
   .extra_margin {
