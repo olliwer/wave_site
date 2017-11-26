@@ -1552,6 +1552,26 @@ hr {
     padding-bottom: 8vh;
   }
 
+  .contact {
+    width: 70%;
+  }
+
+  .contact .link_wrapper {
+    width: 100%;
+  }
+
+  .contact .contact_header {
+    width: 45%;
+  }
+
+  .contact_header p {
+    font-size: 26px;
+  }
+
+  .contact .link_wrapper p {
+    font-size: 10px;
+  }
+
   footer h3 {
     width: 100%;
   }
