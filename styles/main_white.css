@@ -149,6 +149,8 @@ ul.topnav li.icon {
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
+    height: 50px;
+    width: 50px;
     float: right;
     display: inline-block;
   }
@@ -319,7 +321,8 @@ footer .display {
   }
 
   .container .bg-img {
-    width: 100%;
+    width: 150%;
+    margin-left: -30%;
     padding-top: 20vh;
   }
 
@@ -1226,7 +1229,7 @@ div {
     background-color: #F64747;
     opacity: 1;
     overflow-x: hidden;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .navbaroverlay-content {
@@ -1543,6 +1546,10 @@ hr {
     height: 150px;
   }
 
+  .portfolio img {
+    height: 20px;
+  }
+
   .desktop_left {
     margin-left: 0px;
   }
@@ -1675,13 +1682,14 @@ hr {
     margin-bottom: 10px;
   }
 
-  #nyan_static{
+  .with_image {
     height: 120px;
+    display: none;
   }
 
   .news h2 {
     margin-top: 5%;
-    font-size: 11px;
+    font-size: 10px;
     padding-right: 10%;
   }
 
@@ -1711,29 +1719,37 @@ hr {
   }
 
   #team .advisor h5 {
+    margin-top: 5px;
     font-size: 14px;
   }
 
+  .icon_container .icon_img {
+    height: 20px;
+  }
+
   .additional_info .icon_container {
-    width: 50%;
+    width: 15%;
     padding-top: 30px;
     text-align: left;
   }
 
   .additional_info hr {
     margin-left: 0;
+    margin-top: 5px;
   }
 
   .additional_info {
     padding-top: 0;
   }
 
-  .additional_info h4 {
-    font-size: 18px;
+  .additional_info .icon_container h4 {
+    font-size: 7px;
+    margin-bottom: 5px;
   }
 
-  .additional_info h5 {
-    font-size: 14px;
+  .additional_info .icon_container h5 {
+    margin-top: 5px;
+    font-size: 7px;
   }
 
   #team h6 {
@@ -1876,10 +1892,6 @@ hr {
 @media screen and (min-width: 50em) {
   a {
     width: calc(25% - 6px);
-  }
-  
-  a:nth-of-type(2n) {
-    margin-right: 8px;
   }
   
   a:nth-of-type(4n) {

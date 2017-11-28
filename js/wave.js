@@ -74,7 +74,7 @@ $(function() { // DOM ready
 
 $(function() {
     $("body").click(function(e) {
-        if (e.target.id == "close_container"){
+      if (e.target.id == "close_container"){
           closeInfo();
         }
     });
