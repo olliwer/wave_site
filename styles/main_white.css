@@ -59,7 +59,7 @@ h5 {
     top: 0;
     width: 85%;
     height: auto;
-    animation: toColor 10s;
+    animation: toColor 5s;
 }
 
 @keyframes toColor {
@@ -73,6 +73,10 @@ h5 {
 .team {
   background-color: white;
   height: auto;
+}
+
+.team h2 {
+  padding-left: 8px;
 }
 
 .team a {
@@ -419,7 +423,6 @@ div {
   display: block;
   text-align: center;
   cursor: pointer;
-  border-radius: 10px;
 }
 
 .desktop_left {
@@ -590,7 +593,7 @@ div {
   padding-top: 10vh;
   margin: auto;
   width: 60%;
-  height: 700px;
+  height: 800px;
   background-color: white;
 }
 
@@ -598,7 +601,7 @@ div {
   text-align: left;
   padding-left: 12%;
   padding-right: 30%;
-  margin-top: 20%;
+  margin-top: 0px;
   font-family: 'AileronBold';
   font-size: 14px;
   color: white;
@@ -609,6 +612,16 @@ div {
   font-size: 24px;
   text-align: left;
   color: white;
+}
+
+.news h4 {
+  margin-top: 20%;
+  margin-bottom: 5px;
+  padding-left: 12%;
+  font-size: 14px;
+  text-align: left;
+  color: white;
+  font-family: 'AileronLight';
 }
 
 .news h1 {
@@ -636,7 +649,6 @@ div {
 } 
 
 .blog_item {
-  border-radius: 10px;
   box-shadow: 0 1px 4px rgba(0,0,0,.04);
   display: inline-block;
   position: relative;
@@ -694,7 +706,6 @@ div {
 .team {
   width: 60%;
   padding-top: 5vh;
-  padding-bottom: 80px;
   margin: 30px auto;
 }
 
@@ -827,6 +838,73 @@ div {
 .contact input[type=email] {
   width: 40%;
 }
+
+/* CAREERS SECTION */
+
+.jobs {
+  width: 60%;
+  padding-top: 5vh;
+  padding-bottom: 80px;
+  margin: 30px auto;
+  height: 400px;
+}
+
+.jobs .intro_text {
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.jobs .intro_text p {
+  text-align: justify;
+  padding-top: 20px;
+  font-size: 17px;
+  font-family: 'AileronLight', sans-serif;
+  font-weight: bold;
+  color: #22313F;
+}
+
+.jobs h1 {
+  font-size: 26px;
+  padding-bottom: 10px;
+}
+
+.jobs h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.job_container {
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+} 
+
+.job_item {
+  float: left;
+  overflow: auto;
+  display: block;
+  margin: auto;
+  margin-right: 10px;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+  background-color: #F64747;
+}
+
+.job_item h2 {
+  text-align: left;
+  padding-left: 12%;
+  padding-right: 30%;
+  margin-top: 40%;
+  font-family: 'AileronBold';
+  font-size: 16px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+/* /CAREERS SECTION */
 
 .overlay h5 {
     margin: 0;
@@ -984,7 +1062,6 @@ div {
     transition: 0.5s;
     box-shadow: 0 0 16px rgba(0,0,0,0.1);
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
 }
 
 .close_container {
@@ -1288,6 +1365,7 @@ div {
 }
 
 .icon_container h4 {
+  font-size: 20px;
   font-family: "AileronLight", sans-serif;
   margin-bottom: 15px;
 }
@@ -1344,7 +1422,7 @@ div {
 
 .resource_text_container {
   width: 80%;
-  height: 100%;
+  height: 120%;
   margin-left: 12%;
   color: #22313F;
 }
@@ -1413,11 +1491,14 @@ div {
 }
 
 .link_item img {
+  padding-top: 5px;
   height: 25px;
   float: left;
 }
 
 .link_item h3 {
+  padding-top: 5px;
+  padding-left: 10px;
   font-family: 'AileronBold', sans-serif;
   font-size: 12px;
   margin-top: 0px;
@@ -1426,6 +1507,7 @@ div {
 }
 
 .link_item h4 {
+  padding-left: 10px;
   font-style: italic;
   margin-top: 5px;
   font-size: 12px;
@@ -1560,7 +1642,7 @@ hr {
   }
 
   .contact {
-    width: 70%;
+    width: 75%;
   }
 
   .contact .link_wrapper {
@@ -1576,19 +1658,43 @@ hr {
   }
 
   .contact .link_wrapper p {
-    font-size: 10px;
+    font-size: 8px;
+  }
+
+  .jobs {
+    width: 75%;
+  }
+
+  .jobs .intro_text {
+    width: 100%;
+  }
+
+  .jobs .intro_text p {
+    font-size: 20px;
+  }
+
+  .job_item {
+    width: 80px;
+    height: 80px;
+  }
+
+  .job_item h2 {
+    margin-top: 20%;
+    font-size: 8px;
   }
 
   footer h3 {
     width: 100%;
+    font-size: 20px;
   }
 
   footer h2 {
     width: 100%;
+    font-size: 20px;
   }
 
   footer .footer_contact {
-    width: 70%;
+    width: 75%;
   }  
 
   .last {
@@ -1617,10 +1723,12 @@ hr {
 
   #resource_tab_2 {
     width: 100%;
+    padding-top: 30px;
   }
 
   #resource_tab_3 {
     width: 100%;
+    padding-top: 30px;
   }
 
   .about h3 {
@@ -1632,12 +1740,13 @@ hr {
   }
 
   .about {
-    width: 70%;
+    width: 75%;
+    text-align: justify;
   }
 
   .portfolio {
     padding-top: 0vh;
-    width: 70%;
+    width: 75%;
   }
 
   .portfolio_block_container {
@@ -1667,8 +1776,8 @@ hr {
 
   #news {
     padding-top: 5vh;
-    width: 70%;
-    height: 850px;
+    width: 75%;
+    height: 950px;
   }
 
   .blog_container {
@@ -1678,7 +1787,7 @@ hr {
 
   .blog_item {
     width: 100%;
-    height: 120px;
+    height: 130px;
     margin-bottom: 10px;
   }
 
@@ -1688,9 +1797,13 @@ hr {
   }
 
   .news h2 {
-    margin-top: 5%;
+    margin-top: 5px;
     font-size: 10px;
     padding-right: 10%;
+  }
+
+  .news h4 {
+    margin-top: 10%;
   }
 
   .extra_margin {
@@ -1706,7 +1819,7 @@ hr {
 
   #team {
     padding-top: 0vh;
-    width: 70%;
+    width: 75%;
     padding-bottom: 10px;
   }
 
@@ -1724,13 +1837,15 @@ hr {
   }
 
   .icon_container .icon_img {
-    height: 20px;
+    height: 40px;
   }
 
   .additional_info .icon_container {
-    width: 15%;
+    width: 50%;
     padding-top: 30px;
     text-align: left;
+    height: 110px;
+    margin-bottom: 25px;
   }
 
   .additional_info hr {
@@ -1743,13 +1858,14 @@ hr {
   }
 
   .additional_info .icon_container h4 {
-    font-size: 7px;
+    font-size: 20px;
+    margin-top: 10px;
     margin-bottom: 5px;
   }
 
   .additional_info .icon_container h5 {
     margin-top: 5px;
-    font-size: 7px;
+    font-size: 18px;
   }
 
   #team h6 {
@@ -1768,12 +1884,16 @@ hr {
 
   #resources {
     padding-top: 3vh;
-    height: 1800px;
-    width: 70%  
+    height: 1900px;
+    width: 75%  
   }
 
   .resource_text_container {
     margin-left: 14%;
+  }
+
+  .resources #fp1 p {
+    font-size: 20px;
   }
 
   #resources h1 {
@@ -1867,7 +1987,7 @@ hr {
   }  
 
   #team {
-    width: 60%;
+    width: 75%;
   }
 
   #team .img_container {
@@ -1877,7 +1997,7 @@ hr {
 
 @media (min-width: 1451 px) {
   .team {
-    width: 70%;
+    width: 75%;
   }
 
   #team .img_container {
