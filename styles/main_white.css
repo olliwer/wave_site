@@ -1969,7 +1969,7 @@ hr {
 
 @media (min-width: 981px) and (max-width: 1450px) {
   .mobile_shortened {
-    height: 200px;
+    height: 220px;
   }
 
   .portfolio_block_container {
@@ -1987,7 +1987,7 @@ hr {
   }  
 
   #team {
-    width: 75%;
+    width: 60%;
   }
 
   #team .img_container {
