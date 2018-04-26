@@ -201,6 +201,16 @@ function openInfo_sumpli() {
   }
 }
 
+function openInfo_tph() {
+  if (/Mobi/.test(navigator.userAgent)) {
+    document.getElementById("info_container_tph").style.width = "100%";
+    document.getElementById("close_container").style.width = "0%";
+  } else {
+    document.getElementById("info_container_tph").style.width = "45%";
+    document.getElementById("close_container").style.width = "55%";
+  }
+}
+
 
 function closeInfo() {
   document.getElementById("info_container_blok").style.width = "0%"; 
@@ -209,5 +219,6 @@ function closeInfo() {
   document.getElementById("info_container_quicksave").style.width = "0%";  
   document.getElementById("info_container_portyr").style.width = "0%"; 
   document.getElementById("info_container_sumpli").style.width = "0%"; 
+  document.getElementById("info_container_tph").style.width = "0%"; 
   document.getElementById("close_container").style.width = "0%";
 }

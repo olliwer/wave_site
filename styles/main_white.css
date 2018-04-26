@@ -1311,7 +1311,7 @@ div {
 
 .navbaroverlay-content {
     position: relative;
-    top: 25%;
+    top: 15%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
@@ -1777,7 +1777,7 @@ hr {
   #news {
     padding-top: 5vh;
     width: 75%;
-    height: 950px;
+    height: 1050px;
   }
 
   .blog_container {
