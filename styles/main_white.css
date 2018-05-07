@@ -415,12 +415,13 @@ div {
 .portfolio .block_container {
   position: relative;
   height: 200px;
+  width: 100%;
   vertical-align: top;
   overflow: hidden;
   color: inherit;
   border: 1px solid rgba(142,142,142,0.2);
   font-size: 16px;
-  display: block;
+  display: inline-block;
   text-align: center;
   cursor: pointer;
 }
