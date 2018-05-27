@@ -510,6 +510,24 @@ div {
   overflow: hidden;
 }
 
+.portfolio .left_container ul {
+  padding-left: 0;
+}
+
+.portfolio .left_container li {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin: auto;
+  font-family: 'AileronLight', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #22313F;
+  font-size: 14px;
+  margin-bottom: 14px;
+  min-width: 250px;
+  overflow: hidden;
+}
+
 .portfolio .left_container img {
   height: 50px;
   margin-top: 5%;
@@ -1683,13 +1701,13 @@ and (max-device-width : 1024px) {
   }
 
   .job_item {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
   }
 
   .job_item h2 {
     margin-top: 20%;
-    font-size: 8px;
+    font-size: 14px;
   }
 
   footer h3 {
