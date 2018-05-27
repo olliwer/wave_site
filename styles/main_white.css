@@ -594,7 +594,7 @@ div {
   padding-top: 10vh;
   margin: auto;
   width: 60%;
-  height: 800px;
+  height: 900px;
   background-color: white;
 }
 
@@ -1623,6 +1623,14 @@ hr {
   height: 2px;
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .container .bg-img {
+    padding-top: 20vh;
+  }
+
+}
 
 @media (max-width: 768px) {
   .mobile_shortened {
@@ -1834,7 +1842,7 @@ hr {
 
   #team .advisor h5 {
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .icon_container .icon_img {
@@ -1875,7 +1883,7 @@ hr {
   }
 
   #team .advisors h6 {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   #team a img {
