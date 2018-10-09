@@ -612,7 +612,7 @@ div {
   padding-top: 10vh;
   margin: auto;
   width: 60%;
-  height: 900px;
+  height: 1100px;
   background-color: white;
 }
 
@@ -1804,7 +1804,7 @@ and (max-device-width : 1024px) {
   #news {
     padding-top: 5vh;
     width: 75%;
-    height: 1050px;
+    height: 1400px;
   }
 
   .blog_container {
